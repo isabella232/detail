@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <h1>Alice interview task</h1>
+    <h1>See the impact of your work</h1>
 
-    <router-link to="/ins">Please upgrade the Instant Network Schools page</router-link>
+    <router-link to="/ins">INS lessons</router-link>
   </div>
 </template>
 
