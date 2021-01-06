@@ -51,6 +51,7 @@
       changeCountry(value) {
         this.camps = getCamps(this.selectedCountry);
         this.selectedCamp = null;
+        this.selectedSchool = null;
         this.updateChartData();
       },
       changeCamp(value) {
