@@ -1,6 +1,5 @@
 const csv = require('csv-parser')
 const fs = require('fs')
-const results = []
 
 
 let start = new Date().getTime();
@@ -23,8 +22,8 @@ function iterateAndCountLessons(elem, data, props, propsIndex) {
   }
 
   //Fill children
-  if (propsIndex === props.length) return
-  let property = data[props[propsIndex]]
+  if (propsIndex === props.length) return;
+  let property = data[props[propsIndex]];
   elem.children = elem.children || {};
   elem.children[property] = elem.children[property] || {};
 
@@ -34,19 +33,19 @@ function iterateAndCountLessons(elem, data, props, propsIndex) {
 
 var output = {};
 
-function parse() {
-  fs.createReadStream('ins.csv')
-    .pipe(csv())
-    .on('data', (data) => {
-      iterateAndCountLessons(output, data, ['Country', 'Camp', 'School'], 0);
-}).on('end', () => {
-    let elapsed = new Date().getTime() - start
-    console.log('Elapsed: ' + elapsed)
-    fs.writeFile('parsed.json', JSON.stringify(output, null, 2), (err) => {
-      if (err) return console.log(err);
-      console.log('Saved results in parsed.json');
-    });
-  })
+async function transform(fileName) {
+  console.log("Parsing: " + fileName);
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(fileName)
+      .pipe(csv())
+      .on('data', (data) => {
+        iterateAndCountLessons(output, data, ['Country', 'Camp', 'School'], 0);
+      }).on('end', () => {
+      let elapsed = new Date().getTime() - start;
+      console.log('Elapsed: ' + elapsed);
+      return resolve(JSON.stringify(output, null, 2));
+    })
+  });
 }
 
-parse();
+module.exports.transform = transform
