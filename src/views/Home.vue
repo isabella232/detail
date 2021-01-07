@@ -1,6 +1,10 @@
 <template>
   <div class="home">
-    <h1>See the impact of your work</h1>
+    <nav></nav>
+    <aside></aside>
+    <main>
+      <h1>See the impact of your work</h1>
+    </main>
 
     <router-link to="/ins">INS lessons</router-link>
   </div>
@@ -9,8 +13,7 @@
 <script>
 // @ is an alias to /src
 
-
 export default {
-  name: 'home',
+  name: 'home'
 }
 </script>

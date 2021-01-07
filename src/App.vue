@@ -9,6 +9,18 @@
 </template>
 
 <style>
+* {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-south-sudan: #EA4C89;
+  --color-kenya:  #2FB9EF;
+  --color-tanzania: #67B675;
+  --color-dr-congo: #EFEE69;
+  --color-light-grey: #D8D8D8
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

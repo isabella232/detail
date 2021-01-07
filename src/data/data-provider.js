@@ -1,18 +1,19 @@
 const data = require('./parsed.json')
 
-export function getCountries() {
+export function getCountries () {
   return Object.keys(data.children)
 }
 
-export function getCamps(country) {
+export function getCamps (country) {
   return Object.keys(data.children[country].children)
 }
 
-export function getSchools(country, camp) {
+export function getSchools (country, camp) {
+  console.log(data.children[country].children[camp].children)
   return Object.keys(data.children[country].children[camp].children)
 }
 
-export function getLessons(country, camp, school) {
+export function getLessons (country, camp, school) {
   let values = data.values
   if (country) {
     values = data.children[country].values
