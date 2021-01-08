@@ -39,7 +39,7 @@ async function transform(fileName) {
     fs.createReadStream(fileName)
       .pipe(csv())
       .on('data', (data) => {
-        iterateAndCountLessons(output, data, ['Country', 'Camp', 'School'], 0);
+        iterateAndCountLessons(output, data, ['Country', 'Camp', 'School', 'Subject'], 0);
       }).on('end', () => {
       let elapsed = new Date().getTime() - start;
       console.log('Elapsed: ' + elapsed);
