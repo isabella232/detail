@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-    <nav></nav>
-    <aside></aside>
     <main>
       <h1>See the impact of your work</h1>
     </main>

@@ -21,6 +21,11 @@
   --color-light-grey: #D8D8D8
 }
 
+html {
+  display: flex;
+  justify-content: center;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
