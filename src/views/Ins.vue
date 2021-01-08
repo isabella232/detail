@@ -26,44 +26,15 @@
           <line-chart :chart-data="chartData" :options="options"></line-chart>
         </column>
           <column :lg="4" class="summary-area">
-            <div class="country-wrapper">
+            <div class="country-wrapper" v-for="country in dictForVfor" v-bind:key="country.vForId" :value="country.vForId">
               <div class="text-container">
-                <input type="checkbox" id='south-sudan' v-bind:key="'South Sudan'" :value="'South Sudan'" v-model="checkedCountries">
-                <label for='south-sudan'><div></div>{{ sudanLessons }} lessons </br> in South Sudan</label>
+                <input type="checkbox" v-bind:class="country.cssId" v-bind:id="country.cssId" v-bind:key="country.vForId" :value="country.vForId" v-model="checkedCountries">
+                <label v-bind:class="country.cssId" v-bind:for="country.cssId"><div v-bind:class="country.cssId" v-bind:for="country.cssId"></div>{{ lessonsByCountries[country.propId] }} lessons </br> in {{country.vForId}}</label>
               </div>
               <div class="chart-container">
-                <!-- <bar-chart :chart-data="sudanBarChartData" :options="barchartOption"></bar-chart> -->
-                <bar-chart :chart-data="barChartData[0].SouthSudan" :options="barchartOption"></bar-chart>
+                <bar-chart :chart-data="barChartData[country.propId]" :options="barchartOption"></bar-chart>
               </div>
             </div>
-            <div class="country-wrapper">
-              <div class="text-container">
-                <input type="checkbox" id='kenya' v-bind:key="'Kenya'" :value="'Kenya'" v-model="checkedCountries">
-                <label for='kenya'><div></div>{{ kenyaLessons }} lessons </br> in Kenya</label>
-              </div>
-              <div class="chart-container">
-                <bar-chart :chart-data="barChartData[2].Kenya" :options="barchartOption"></bar-chart>
-              </div>
-            </div>
-            <div class="country-wrapper">
-              <div class="text-container">
-                <input type="checkbox" id='tanzania' v-bind:key="'Tanzania'" :value="'Tanzania'" v-model="checkedCountries">
-                <label for='tanzania'><div></div>{{ tanzaniaLessons }} lessons </br> in Tanzania</label>
-              </div>
-              <div class="chart-container">
-                <bar-chart :chart-data="barChartData[3].Tanzania" :options="barchartOption"></bar-chart>
-              </div>
-            </div>
-            <div class="country-wrapper">
-              <div class="text-container">
-                <input type="checkbox" id='dr-congo' v-bind:key="'DR Congo'" :value="'DR Congo'" v-model="checkedCountries">
-                <label for='dr-congo'><div></div>{{ drcongoLessons }} lessons </br> in DR Congo</label>
-              </div>
-              <div class="chart-container">
-                <bar-chart :chart-data="barChartData[1].DRCongo" :options="barchartOption"></bar-chart>
-              </div>
-            </div>
-              <!-- {{ summary }} -->
           </column>
       </row>
     </section>
@@ -88,22 +59,15 @@ export default {
       selectedSchool: null,
       chartData: {},
       barChartData: [],
-      sudanBarChartData: {},
-      kenyaBarChartData: {},
-      tanzaniaBarChartData: {},
-      drcongoBarChartData: {},
       countries: [],
+      dictForVfor: [],
       camps: [],
       schools: [],
       country: '',
       school: '',
       checkedCountries: [],
-      summary: '',
       totalLessons: '',
-      sudanLessons: '',
-      drcongoLessons: '',
-      kenyaLessons: '',
-      tanzaniaLessons: '',
+      lessonsByCountries: {},
       options: {
         responsive: true,
         maintainAspectRatio: false,
@@ -139,9 +103,9 @@ export default {
   },
   mounted () {
     this.countries = getCountries()
-    this.updateChartData()
+    this.setDictForVfor()
+    this.updateLineChartData()
     this.updateBarChartData()
-    this.updateFilteringArea()
     this.setSummary()
   },
   methods: {
@@ -149,38 +113,34 @@ export default {
       this.camps = getCamps(this.selectedCountry)
       this.selectedCamp = null
       this.selectedSchool = null
-      this.updateChartData()
+      this.updateLineChartData()
       this.country = '- ' + this.selectedCountry
     },
     changeCamp (value) {
       this.schools = getSchools(this.selectedCountry, this.selectedCamp)
       this.selectedSchool = null
-      this.updateChartData()
+      this.updateLineChartData()
       this.school = ', ' + this.selectedCamp
     },
     changeSchool (value) {
-      this.updateChartData()
+      this.updateLineChartData()
     },
     updateBarChartData () {
-      const countries = ['South Sudan', 'DR Congo', 'Kenya', 'Tanzania']
-      const allDataSet = []
+      const countries = getCountries()
+      const allDataDict = {}
       for (let i = 0; i < countries.length; i++) {
-        const countryObj = {}
         let key = countries[i].replace(/\s+/g, '')
         let value = getLessons(countries[i])
-        countryObj[key] = {
+        allDataDict[key] = {
           labels: value.months,
           datasets: [{
             data: value.lessons
           }]
         }
-        allDataSet.push(countryObj)
       }
-      this.barChartData = allDataSet
-      console.log('this.barChartData[0].SouthSudan', this.barChartData[0].SouthSudan)
-      
+      this.barChartData = allDataDict
     },
-    updateChartData (chartData) {
+    updateLineChartData (chartData) {
       // Build label
       let label = 'All'
       if (this.selectedCountry) {
@@ -220,76 +180,80 @@ export default {
         datasets: dataSetsArray
       }
     },
-    updateFilteringArea (newVal) {
-      this.summary = newVal
-    },
     updateMultipleChartData (newVal) {
+      function getColorSchmeFromIndex (index) {
+        let COLOR_SCHEME = [
+          '#EA4C89',
+          '#2FB9EF',
+          '#67B675',
+          '#f76511'
+        ]
+        return COLOR_SCHEME[index % COLOR_SCHEME.length]
+      }
+
       let multipleData = []
-      newVal.map((el, index) => {
-        const chartData = {}
-        let borderColor = ''
 
-        switch (el) {
-          case 'South Sudan':
-            borderColor = '#EA4C89'
-            break
-          case 'Kenya':
-            borderColor = '#2FB9EF'
-            break
-          case 'Tanzania':
-            borderColor = '#67B675'
-            break
-          case 'DR Congo':
-            borderColor = '#f76511'
-            break
+      const countries = this.countries
+
+      for (let i = 0; i < countries.length; i++) {
+        const cssId = countries[i].toLowerCase().replace(' ', '-')
+        const dom = document.getElementsByClassName(`${cssId}`)
+
+        if (dom[0].checked) {
+          const checkedColor = getColorSchmeFromIndex(i)
+          dom[1].style.color = checkedColor
+          dom[2].style.border = `1px solid ${checkedColor}`
+
+          const chartData = {}
+          const lessons = getLessons(countries[i])
+
+          chartData.label = countries[i]
+          chartData.backgroundColor = 'transparent'
+          chartData.borderColor = checkedColor
+          chartData.data = lessons.lessons
+          chartData.pointRadius = 6
+          chartData.borderWidth = 1.5
+          chartData.pointBackgroundColor = '#FFFFFF'
+          chartData.lineTension = 0
+          multipleData.push(chartData)
+        } else {
+          dom[1].style.color = '#D8D8D8'
+          dom[2].style.border = '1px solid #D8D8D8'
         }
-
-        const lessons = getLessons(el)
-
-        chartData.label = el
-        chartData.backgroundColor = 'transparent'
-        chartData.borderColor = borderColor
-        chartData.data = lessons.lessons
-        chartData.pointRadius = 6
-        chartData.borderWidth = 1.5
-        chartData.pointBackgroundColor = '#FFFFFF'
-        chartData.lineTension = 0
-        multipleData.push(chartData)
-      })
-
-      this.updateChartData(multipleData)
+      }
+      this.updateLineChartData(multipleData)
     },
     setSummary () {
-      const data = getLessons(this.selectedCountry, this.selectedCamp, this.selectedSchool)
-      const sudan = getLessons('South Sudan')
-      const kenya = getLessons('Kenya')
-      const tanzania = getLessons('Tanzania')
-      const drcongo = getLessons('DR Congo')
-      if (data) {
-        this.totalLessons = data.lessons.reduce(
-          (prev, curr) => prev + curr
-        )
+      const total = getLessons(this.selectedCountry, this.selectedCamp, this.selectedSchool)
+      const countries = getCountries()
+
+      function calcSum (country) {
+        const sum = country.lessons.reduce(
+          (prev, curr) => prev + curr)
+        return sum
       }
-      if (sudan) {
-        this.sudanLessons = sudan.lessons.reduce(
-          (prev, curr) => prev + curr
-        )
+
+      this.totalLessons = calcSum(total)
+
+      const lessonSumDict = {}
+      for (let i = 0; i < countries.length; i++) {
+        const countryName = countries[i].replace(/\s+/g, '')
+        const sum = calcSum(getLessons(countries[i]))
+        lessonSumDict[countryName] = sum
       }
-      if (kenya) {
-        this.kenyaLessons = kenya.lessons.reduce(
-          (prev, curr) => prev + curr
-        )
+      this.lessonsByCountries = lessonSumDict
+    },
+    setDictForVfor () {
+      const countries = getCountries()
+      const countriesForVfor = []
+      for (let i = 0; i < countries.length; i++) {
+        const obj = {}
+        obj.vForId = countries[i]
+        obj.cssId = countries[i].toLowerCase().replace(' ', '-')
+        obj.propId = countries[i].replace(/\s+/g, '')
+        countriesForVfor.push(obj)
       }
-      if (tanzania) {
-        this.tanzaniaLessons = tanzania.lessons.reduce(
-          (prev, curr) => prev + curr
-        )
-      }
-      if (drcongo) {
-        this.drcongoLessons = drcongo.lessons.reduce(
-          (prev, curr) => prev + curr
-        )
-      }
+      this.dictForVfor = countriesForVfor
     }
   },
   watch: {
@@ -325,31 +289,12 @@ export default {
     width: 200px !important;
     height: 100px !important;
   }
-  input[type=checkbox] + label {
-    color: var(--color-light-grey);
-  }
-  input#south-sudan[type=checkbox]:checked + label {
-    color: var(--color-south-sudan);
-  }
-  input#kenya[type=checkbox]:checked + label {
-    color: var(--color-kenya);
-  }
-  input#tanzania[type=checkbox]:checked + label {
-    color: var(--color-tanzania);
-  }
-  input#dr-congo[type=checkbox]:checked + label {
-    color: var(--color-dr-congo);
-  }
-  input[type=checkbox] {
-    color: var(--color-light-grey);
-    border: 1px solid var(--color-light-grey);
-    background-color: var(--color-light-grey);
-  }
   label {
     display: flex;
     flex-direction: row;
     align-content: center;
     text-align: left;
+    color: var(--color-light-grey);
   }
   label div {
     display:flex;
@@ -373,18 +318,6 @@ export default {
   }
   #dr-congo{
     display: none;
-  }
-  #south-sudan:checked + label div {
-    border:1px solid var(--color-south-sudan);
-  }
-  #kenya:checked + label div {
-    border:1px solid var(--color-kenya);
-  }
-  #tanzania:checked + label div {
-    border:1px solid var(--color-tanzania);
-  }
-  #dr-congo:checked + label div {
-    border:1px solid var(--color-dr-congo);
   }
 
 </style>
