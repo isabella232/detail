@@ -9,7 +9,6 @@ export function getCamps (country) {
 }
 
 export function getSchools (country, camp) {
-  console.log(data.children[country].children[camp].children)
   return Object.keys(data.children[country].children[camp].children)
 }
 

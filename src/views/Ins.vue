@@ -32,7 +32,8 @@
                 <label for='south-sudan'><div></div>{{ sudanLessons }} lessons </br> in South Sudan</label>
               </div>
               <div class="chart-container">
-                <bar-chart :chart-data="sudanBarChartData" :options="barchartOption"></bar-chart>
+                <!-- <bar-chart :chart-data="sudanBarChartData" :options="barchartOption"></bar-chart> -->
+                <bar-chart :chart-data="barChartData[0].SouthSudan" :options="barchartOption"></bar-chart>
               </div>
             </div>
             <div class="country-wrapper">
@@ -41,7 +42,7 @@
                 <label for='kenya'><div></div>{{ kenyaLessons }} lessons </br> in Kenya</label>
               </div>
               <div class="chart-container">
-                <bar-chart :chart-data="kenyaBarChartData" :options="barchartOption"></bar-chart>
+                <bar-chart :chart-data="barChartData[2].Kenya" :options="barchartOption"></bar-chart>
               </div>
             </div>
             <div class="country-wrapper">
@@ -50,7 +51,7 @@
                 <label for='tanzania'><div></div>{{ tanzaniaLessons }} lessons </br> in Tanzania</label>
               </div>
               <div class="chart-container">
-                <bar-chart :chart-data="tanzaniaBarChartData" :options="barchartOption"></bar-chart>
+                <bar-chart :chart-data="barChartData[3].Tanzania" :options="barchartOption"></bar-chart>
               </div>
             </div>
             <div class="country-wrapper">
@@ -59,7 +60,7 @@
                 <label for='dr-congo'><div></div>{{ drcongoLessons }} lessons </br> in DR Congo</label>
               </div>
               <div class="chart-container">
-                <bar-chart :chart-data="drcongoBarChartData" :options="barchartOption"></bar-chart>
+                <bar-chart :chart-data="barChartData[1].DRCongo" :options="barchartOption"></bar-chart>
               </div>
             </div>
               <!-- {{ summary }} -->
@@ -86,6 +87,7 @@ export default {
       selectedCamp: null,
       selectedSchool: null,
       chartData: {},
+      barChartData: [],
       sudanBarChartData: {},
       kenyaBarChartData: {},
       tanzaniaBarChartData: {},
@@ -160,40 +162,23 @@ export default {
       this.updateChartData()
     },
     updateBarChartData () {
-      const sudan = getLessons('South Sudan')
-      const drcongo = getLessons('DR Congo')
-      const kenya = getLessons('Kenya')
-      const tanzania = getLessons('Tanzania')
-
-      // sudanBarChartData: {},
-      // drcongoBarChartData: {},
-      // kenyaBarChartData: {},
-      // tanzaniaBarChartData: {},
-
-      this.sudanBarChartData = {
-        labels: sudan.months,
-        datasets: [{
-          data: sudan.lessons
-        }]
+      const countries = ['South Sudan', 'DR Congo', 'Kenya', 'Tanzania']
+      const allDataSet = []
+      for (let i = 0; i < countries.length; i++) {
+        const countryObj = {}
+        let key = countries[i].replace(/\s+/g, '')
+        let value = getLessons(countries[i])
+        countryObj[key] = {
+          labels: value.months,
+          datasets: [{
+            data: value.lessons
+          }]
+        }
+        allDataSet.push(countryObj)
       }
-      this.drcongoBarChartData = {
-        labels: drcongo.months,
-        datasets: [{
-          data: drcongo.lessons
-        }]
-      }
-      this.kenyaBarChartData = {
-        labels: kenya.months,
-        datasets: [{
-          data: kenya.lessons
-        }]
-      }
-      this.tanzaniaBarChartData = {
-        labels: tanzania.months,
-        datasets: [{
-          data: tanzania.lessons
-        }]
-      }
+      this.barChartData = allDataSet
+      console.log('this.barChartData[0].SouthSudan', this.barChartData[0].SouthSudan)
+      
     },
     updateChartData (chartData) {
       // Build label
@@ -242,13 +227,28 @@ export default {
       let multipleData = []
       newVal.map((el, index) => {
         const chartData = {}
-        const borderColors = ['#EA4C89', '#2FB9EF', '#67B675', '#EFEE69']
+        let borderColor = ''
+
+        switch (el) {
+          case 'South Sudan':
+            borderColor = '#EA4C89'
+            break
+          case 'Kenya':
+            borderColor = '#2FB9EF'
+            break
+          case 'Tanzania':
+            borderColor = '#67B675'
+            break
+          case 'DR Congo':
+            borderColor = '#f76511'
+            break
+        }
 
         const lessons = getLessons(el)
 
         chartData.label = el
         chartData.backgroundColor = 'transparent'
-        chartData.borderColor = borderColors[index]
+        chartData.borderColor = borderColor
         chartData.data = lessons.lessons
         chartData.pointRadius = 6
         chartData.borderWidth = 1.5

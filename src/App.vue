@@ -17,7 +17,7 @@
   --color-south-sudan: #EA4C89;
   --color-kenya:  #2FB9EF;
   --color-tanzania: #67B675;
-  --color-dr-congo: #EFEE69;
+  --color-dr-congo: #f76511;
   --color-light-grey: #D8D8D8
 }
 
