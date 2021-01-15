@@ -12,16 +12,16 @@ export function getSchools (country, camp) {
   return Object.keys(data.children[country].children[camp].children)
 }
 
-export function getLessons (country, camp, school) {
-  let values = data.values
+export function getLessons (country, camp, school, year = 2019) {
+  let values = data.values[year]
   if (country) {
-    values = data.children[country].values
+    values = data.children[country].values[year]
   }
   if (camp) {
-    values = data.children[country].children[camp].values
+    values = data.children[country].children[camp].values[year]
   }
   if (school) {
-    values = data.children[country].children[camp].children[school].values
+    values = data.children[country].children[camp].children[school].values[year]
   }
 
   return {
