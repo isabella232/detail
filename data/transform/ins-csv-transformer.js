@@ -16,10 +16,10 @@ function iterateAndCountLessons(elem, data, props, propsIndex) {
   let year = dateParts[2]
   let m = parseInt(dateParts[1])
 
+  elem.values = elem.values || {};
+  elem.values[year] = elem.values[year] || Object.assign({}, monthsTemplate);
   elem.values = elem.values || Object.assign({}, monthsTemplate);
-  if (year === '2019') {
-    elem.values[m] += 1
-  }
+  elem.values[year][m] += 1
 
   //Fill children
   if (propsIndex === props.length) return;
