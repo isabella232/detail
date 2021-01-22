@@ -25,48 +25,48 @@
     "Tanzania": {
       "values": {
         "Female": {
-          "base_count": 54,
-          "base_skills": 204,
-          "end_count": 58,
-          "end_skills": 429,
-          "base_avg": 3.7777777777777777,
-          "end_avg": 7.396551724137931
+          "base_count": 127,
+          "base_skills": 307,
+          "end_count": 120,
+          "end_skills": 557,
+          "base_avg": 2.4173228346456694,
+          "end_avg": 4.641666666666667
         },
         "Male": {
-          "base_count": 109,
-          "base_skills": 868,
-          "end_count": 118,
-          "end_skills": 1451,
-          "base_avg": 7.963302752293578,
-          "end_avg": 12.296610169491526
+          "base_count": 196,
+          "base_skills": 1152,
+          "end_count": 218,
+          "end_skills": 2018,
+          "base_avg": 5.877551020408164,
+          "end_avg": 9.256880733944953
         },
         "Total": {
-          "base_avg": 6.576687116564417,
-          "end_avg": 10.681818181818182
+          "base_avg": 4.5170278637770895,
+          "end_avg": 7.618343195266272
         }
       },
       "children": {
         "Nyarugusu": {
           "values": {
             "Female": {
-              "base_count": 54,
-              "base_skills": 204,
-              "end_count": 58,
-              "end_skills": 429,
-              "base_avg": 3.7777777777777777,
-              "end_avg": 7.396551724137931
+              "base_count": 127,
+              "base_skills": 307,
+              "end_count": 120,
+              "end_skills": 557,
+              "base_avg": 2.4173228346456694,
+              "end_avg": 4.641666666666667
             },
             "Male": {
-              "base_count": 109,
-              "base_skills": 868,
-              "end_count": 118,
-              "end_skills": 1451,
-              "base_avg": 7.963302752293578,
-              "end_avg": 12.296610169491526
+              "base_count": 196,
+              "base_skills": 1152,
+              "end_count": 218,
+              "end_skills": 2018,
+              "base_avg": 5.877551020408164,
+              "end_avg": 9.256880733944953
             },
             "Total": {
-              "base_avg": 6.576687116564417,
-              "end_avg": 10.681818181818182
+              "base_avg": 4.5170278637770895,
+              "end_avg": 7.618343195266272
             }
           },
           "children": {
@@ -165,59 +165,7 @@
                   "end_avg": 5.096774193548387
                 }
               }
-            }
-          }
-        }
-      }
-    },
-    "Unknown": {
-      "values": {
-        "Female": {
-          "base_count": 73,
-          "base_skills": 103,
-          "end_count": 62,
-          "end_skills": 128,
-          "base_avg": 1.4109589041095891,
-          "end_avg": 2.064516129032258
-        },
-        "Male": {
-          "base_count": 87,
-          "base_skills": 284,
-          "end_count": 100,
-          "end_skills": 567,
-          "base_avg": 3.264367816091954,
-          "end_avg": 5.67
-        },
-        "Total": {
-          "base_avg": 2.41875,
-          "end_avg": 4.290123456790123
-        }
-      },
-      "children": {
-        "Unknown": {
-          "values": {
-            "Female": {
-              "base_count": 73,
-              "base_skills": 103,
-              "end_count": 62,
-              "end_skills": 128,
-              "base_avg": 1.4109589041095891,
-              "end_avg": 2.064516129032258
             },
-            "Male": {
-              "base_count": 87,
-              "base_skills": 284,
-              "end_count": 100,
-              "end_skills": 567,
-              "base_avg": 3.264367816091954,
-              "end_avg": 5.67
-            },
-            "Total": {
-              "base_avg": 2.41875,
-              "end_avg": 4.290123456790123
-            }
-          },
-          "children": {
             "Charite": {
               "values": {
                 "Female": {
