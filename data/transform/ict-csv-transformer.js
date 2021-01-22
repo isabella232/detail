@@ -38,7 +38,17 @@ function iterateAndCountLessons(elem, data, props, propsIndex) {
 
   //Fill children
   if (propsIndex === props.length) return;
-  let property = data[props[propsIndex]];
+  let propertyName = props[propsIndex];
+  let property = data[propertyName];
+  if (property === "Unknown" && propertyName === "Country") {
+    property = "Tanzania";
+  }
+  if (property === "Unknown" && propertyName === "Camp") {
+    property = "Nyarugusu";
+  }
+
+
+
   elem.children = elem.children || {};
   elem.children[property] = elem.children[property] || {};
 
