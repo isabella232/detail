@@ -63,12 +63,32 @@ Achieving decentralisation on these 3 levels means that we’ll be able to follo
 #### Extract
 
 Extraction scripts are located in the [extract](https://github.com/alice-si/detail/tree/master/data/extract) folder.
-They are responsible for uploading the local file to the decentralised storage, attaching semantic tags, cryptographically signing the content and covering all of the network fees.
+They are responsible for uploading the local file to the decentralised storage, attaching semantic tags, cryptographically signing the content and covering all the network fees.
 
 #### Transform
 
+Data transfomation scripts are located in the [transform](https://github.com/alice-si/detail/tree/master/data/transform) folder.
+They process the raw data, aggregate values, perform calculations and package the results into hierarchical data structures. 
+The core executor [module](https://github.com/alice-si/detail/tree/master/data/transform/process.js) loads the data from the decentralised storage and applies the processing logic from selected transformation scripts. 
+The project currently contains two transformation scripts:
+
+1. [ins-csv-transformer](https://github.com/alice-si/detail/blob/master/data/transform/ict-csv-transformer.js) - process data about students attendance by aggregating lessons locations and dates. 
+
+2. [ict-csv-transformer](https://github.com/alice-si/detail/blob/master/data/transform/ict-csv-transformer.js) - process data about students skills by aggregating lessons locations and skills categories. The script needs to traverse the object hierarchy two times (top-bottom and bottom-top) to first organised the data and then to propagate the calculation of average statistics. 
+
+#### Load
+
+Data loading scripts are located in the [load](https://github.com/alice-si/detail/tree/master/data/load) folder.
+They are responsible for loading the content form the decentralised storage.
+
+#### Source
+
+This folder contains raw datasets that could be uploaded to the decentralised storage, processed and linked to the visualisation UI. 
+
 
 ### Frontend - data visualisation
+
+The code is implemented using the Vue framework and located in the [src](https://github.com/alice-si/detail/tree/master/data/load). The data visualisation is based on the chart.js library. 
 
 #### Project setup
 
