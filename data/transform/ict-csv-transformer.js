@@ -35,10 +35,24 @@ function iterateAndCountLessons(elem, data, props, propsIndex) {
     elem.values[data['Gender']].end_skills += end;
 
 
+  let propertyName = props[propsIndex];
+
+
+
+
 
   //Fill children
-  if (propsIndex === props.length) return;
-  let propertyName = props[propsIndex];
+  if (propsIndex === props.length) {
+    //ICT Details
+    for (var i = 1; i <= 21; i++) {
+      elem.values["Skill "+i] = elem.values["Skill "+i]  || { base : {}, end: {} };
+      elem.values["Skill "+i].base[data['Gender']] = parseInt(data['B_ICT_' + i]) * 100 / elem.values[data['Gender']].base_count
+      elem.values["Skill "+i].end[data['Gender']] = parseInt(data['E_ICT_' + i]) * 100 / elem.values[data['Gender']].end_count
+    }
+      return;
+    process.exit();
+  }
+
   let property = data[propertyName];
   if (property === "Unknown" && propertyName === "Country") {
     property = "Tanzania";
@@ -75,6 +89,18 @@ function postprocess(data) {
 
   if (data.children) {
     Object.keys(data.children).forEach(child => postprocess(data.children[child]));
+  } else {
+    for (var i = 1; i <= 21; i++) {
+      data.values["Skill "+i].base.Total =
+        (data.values["Skill "+i].base.Female * data.values.Female.base_count
+      + data.values["Skill "+i].base.Male * data.values.Male.base_count)
+      / (data.values.Female.base_count + data.values.Male.base_count);
+
+      data.values["Skill "+i].end.Total =
+        (data.values["Skill "+i].end.Female * data.values.Female.end_count
+          + data.values["Skill "+i].end.Male * data.values.Male.end_count)
+        / (data.values.Female.end_count + data.values.Male.end_count);
+    }
   }
 }
 
