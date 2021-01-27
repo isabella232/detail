@@ -17,4 +17,4 @@ function saveResults(data) {
   });
 }
 
-processDataset("/Users/kuba/projects/detail/data/source/ict.csv");
+processDataset("/Users/kuba/projects/detail/data/source/ict_teachers.csv");
