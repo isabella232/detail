@@ -1,0 +1,246 @@
+{
+  "values": {
+    "Female": {
+      "base_count": 51,
+      "base_skills": 159,
+      "end_count": 39,
+      "end_skills": 387,
+      "base_avg": 3.1176470588235294,
+      "end_avg": 9.923076923076923
+    },
+    "Male": {
+      "base_count": 131,
+      "base_skills": 759,
+      "end_count": 138,
+      "end_skills": 1623,
+      "base_avg": 5.793893129770993,
+      "end_avg": 11.76086956521739
+    },
+    "Total": {
+      "base_avg": 5.043956043956044,
+      "end_avg": 11.35593220338983
+    }
+  },
+  "children": {
+    "Tanzania": {
+      "values": {
+        "Female": {
+          "base_count": 51,
+          "base_skills": 159,
+          "end_count": 39,
+          "end_skills": 387,
+          "base_avg": 3.1176470588235294,
+          "end_avg": 9.923076923076923
+        },
+        "Male": {
+          "base_count": 131,
+          "base_skills": 759,
+          "end_count": 138,
+          "end_skills": 1623,
+          "base_avg": 5.793893129770993,
+          "end_avg": 11.76086956521739
+        },
+        "Total": {
+          "base_avg": 5.043956043956044,
+          "end_avg": 11.35593220338983
+        }
+      },
+      "children": {
+        "Nyarugusu": {
+          "values": {
+            "Female": {
+              "base_count": 51,
+              "base_skills": 159,
+              "end_count": 39,
+              "end_skills": 387,
+              "base_avg": 3.1176470588235294,
+              "end_avg": 9.923076923076923
+            },
+            "Male": {
+              "base_count": 131,
+              "base_skills": 759,
+              "end_count": 138,
+              "end_skills": 1623,
+              "base_avg": 5.793893129770993,
+              "end_avg": 11.76086956521739
+            },
+            "Total": {
+              "base_avg": 5.043956043956044,
+              "end_avg": 11.35593220338983
+            }
+          },
+          "children": {
+            "Amitie": {
+              "values": {
+                "Female": {
+                  "base_count": 6,
+                  "base_skills": 10,
+                  "end_count": 7,
+                  "end_skills": 104,
+                  "base_avg": 1.6666666666666667,
+                  "end_avg": 14.857142857142858
+                },
+                "Male": {
+                  "base_count": 20,
+                  "base_skills": 156,
+                  "end_count": 29,
+                  "end_skills": 432,
+                  "base_avg": 7.8,
+                  "end_avg": 14.89655172413793
+                },
+                "Total": {
+                  "base_avg": 6.384615384615385,
+                  "end_avg": 14.88888888888889
+                }
+              }
+            },
+            "Fraternite": {
+              "values": {
+                "Female": {
+                  "base_count": 4,
+                  "base_skills": 33,
+                  "end_count": 3,
+                  "end_skills": 45,
+                  "base_avg": 8.25,
+                  "end_avg": 15
+                },
+                "Male": {
+                  "base_count": 21,
+                  "base_skills": 185,
+                  "end_count": 26,
+                  "end_skills": 360,
+                  "base_avg": 8.80952380952381,
+                  "end_avg": 13.846153846153847
+                },
+                "Total": {
+                  "base_avg": 8.72,
+                  "end_avg": 13.96551724137931
+                }
+              }
+            },
+            "Hodari": {
+              "values": {
+                "Female": {
+                  "base_count": 13,
+                  "base_skills": 24,
+                  "end_count": 9,
+                  "end_skills": 143,
+                  "base_avg": 1.8461538461538463,
+                  "end_avg": 15.88888888888889
+                },
+                "Male": {
+                  "base_count": 14,
+                  "base_skills": 70,
+                  "end_count": 17,
+                  "end_skills": 232,
+                  "base_avg": 5,
+                  "end_avg": 13.647058823529411
+                },
+                "Total": {
+                  "base_avg": 3.4814814814814814,
+                  "end_avg": 14.423076923076923
+                }
+              }
+            },
+            "Rehema": {
+              "values": {
+                "Female": {
+                  "base_count": 5,
+                  "base_skills": 25,
+                  "end_count": 3,
+                  "end_skills": 45,
+                  "base_avg": 5,
+                  "end_avg": 15
+                },
+                "Male": {
+                  "base_count": 20,
+                  "base_skills": 69,
+                  "end_count": 18,
+                  "end_skills": 245,
+                  "base_avg": 3.45,
+                  "end_avg": 13.61111111111111
+                },
+                "Total": {
+                  "base_avg": 3.76,
+                  "end_avg": 13.80952380952381
+                }
+              }
+            },
+            "Charite": {
+              "values": {
+                "Female": {
+                  "base_count": 5,
+                  "base_skills": 30,
+                  "end_count": 2,
+                  "end_skills": 11,
+                  "base_avg": 6,
+                  "end_avg": 5.5
+                },
+                "Male": {
+                  "base_count": 29,
+                  "base_skills": 142,
+                  "end_count": 24,
+                  "end_skills": 194,
+                  "base_avg": 4.896551724137931,
+                  "end_avg": 8.083333333333334
+                },
+                "Total": {
+                  "base_avg": 5.0588235294117645,
+                  "end_avg": 7.884615384615385
+                }
+              }
+            },
+            "Elimu": {
+              "values": {
+                "Female": {
+                  "base_count": 11,
+                  "base_skills": 23,
+                  "end_count": 11,
+                  "end_skills": 27,
+                  "base_avg": 2.090909090909091,
+                  "end_avg": 2.4545454545454546
+                },
+                "Male": {
+                  "base_count": 13,
+                  "base_skills": 70,
+                  "end_count": 13,
+                  "end_skills": 116,
+                  "base_avg": 5.384615384615385,
+                  "end_avg": 8.923076923076923
+                },
+                "Total": {
+                  "base_avg": 3.875,
+                  "end_avg": 5.958333333333333
+                }
+              }
+            },
+            "Matunda": {
+              "values": {
+                "Female": {
+                  "base_count": 7,
+                  "base_skills": 14,
+                  "end_count": 4,
+                  "end_skills": 12,
+                  "base_avg": 2,
+                  "end_avg": 3
+                },
+                "Male": {
+                  "base_count": 14,
+                  "base_skills": 67,
+                  "end_count": 11,
+                  "end_skills": 44,
+                  "base_avg": 4.785714285714286,
+                  "end_avg": 4
+                },
+                "Total": {
+                  "base_avg": 3.857142857142857,
+                  "end_avg": 3.7333333333333334
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
