@@ -82,254 +82,380 @@
                 },
                 "Skill 1": {
                   "base": {
-                    "Female": 33.333333333333336,
-                    "Male": 60,
-                    "Total": 53.84615384615385
+                    "Female_raw": 2,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 12,
+                    "Male_pct": 60,
+                    "Total_raw": 14,
+                    "Total_pct": 53.84615384615385
                   },
                   "end": {
-                    "Female": 85.71428571428571,
-                    "Male": 93.10344827586206,
-                    "Total": 91.66666666666667
+                    "Female_raw": 6,
+                    "Female_pct": 85.71428571428571,
+                    "Male_raw": 27,
+                    "Male_pct": 93.10344827586206,
+                    "Total_raw": 33,
+                    "Total_pct": 91.66666666666667
                   }
                 },
                 "Skill 2": {
                   "base": {
-                    "Female": 0,
-                    "Male": 40,
-                    "Total": 30.76923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 8,
+                    "Male_pct": 40,
+                    "Total_raw": 8,
+                    "Total_pct": 30.76923076923077
                   },
                   "end": {
-                    "Female": 71.42857142857143,
-                    "Male": 79.3103448275862,
-                    "Total": 77.77777777777777
+                    "Female_raw": 5,
+                    "Female_pct": 71.42857142857143,
+                    "Male_raw": 23,
+                    "Male_pct": 79.3103448275862,
+                    "Total_raw": 28,
+                    "Total_pct": 77.77777777777777
                   }
                 },
                 "Skill 3": {
                   "base": {
-                    "Female": 16.666666666666668,
-                    "Male": 15,
-                    "Total": 15.384615384615385
+                    "Female_raw": 1,
+                    "Female_pct": 16.666666666666668,
+                    "Male_raw": 3,
+                    "Male_pct": 15,
+                    "Total_raw": 4,
+                    "Total_pct": 15.384615384615385
                   },
                   "end": {
-                    "Female": 71.42857142857143,
-                    "Male": 68.96551724137932,
-                    "Total": 69.44444444444444
+                    "Female_raw": 5,
+                    "Female_pct": 71.42857142857143,
+                    "Male_raw": 20,
+                    "Male_pct": 68.96551724137932,
+                    "Total_raw": 25,
+                    "Total_pct": 69.44444444444444
                   }
                 },
                 "Skill 4": {
                   "base": {
-                    "Female": 0,
-                    "Male": 30,
-                    "Total": 23.076923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 30,
+                    "Total_raw": 6,
+                    "Total_pct": 23.076923076923077
                   },
                   "end": {
-                    "Female": 42.857142857142854,
-                    "Male": 37.93103448275862,
-                    "Total": 38.888888888888886
+                    "Female_raw": 3,
+                    "Female_pct": 42.857142857142854,
+                    "Male_raw": 11,
+                    "Male_pct": 37.93103448275862,
+                    "Total_raw": 14,
+                    "Total_pct": 38.888888888888886
                   }
                 },
                 "Skill 5": {
                   "base": {
-                    "Female": 0,
-                    "Male": 35,
-                    "Total": 26.923076923076923
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 7,
+                    "Male_pct": 35,
+                    "Total_raw": 7,
+                    "Total_pct": 26.923076923076923
                   },
                   "end": {
-                    "Female": 42.857142857142854,
-                    "Male": 34.48275862068966,
-                    "Total": 36.111111111111114
+                    "Female_raw": 3,
+                    "Female_pct": 42.857142857142854,
+                    "Male_raw": 10,
+                    "Male_pct": 34.48275862068966,
+                    "Total_raw": 13,
+                    "Total_pct": 36.111111111111114
                   }
                 },
                 "Skill 6": {
                   "base": {
-                    "Female": 0,
-                    "Male": 40,
-                    "Total": 30.76923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 8,
+                    "Male_pct": 40,
+                    "Total_raw": 8,
+                    "Total_pct": 30.76923076923077
                   },
                   "end": {
-                    "Female": 85.71428571428571,
-                    "Male": 79.3103448275862,
-                    "Total": 80.55555555555556
+                    "Female_raw": 6,
+                    "Female_pct": 85.71428571428571,
+                    "Male_raw": 23,
+                    "Male_pct": 79.3103448275862,
+                    "Total_raw": 29,
+                    "Total_pct": 80.55555555555556
                   }
                 },
                 "Skill 7": {
                   "base": {
-                    "Female": 0,
-                    "Male": 40,
-                    "Total": 30.76923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 8,
+                    "Male_pct": 40,
+                    "Total_raw": 8,
+                    "Total_pct": 30.76923076923077
                   },
                   "end": {
-                    "Female": 71.42857142857143,
-                    "Male": 79.3103448275862,
-                    "Total": 77.77777777777777
+                    "Female_raw": 5,
+                    "Female_pct": 71.42857142857143,
+                    "Male_raw": 23,
+                    "Male_pct": 79.3103448275862,
+                    "Total_raw": 28,
+                    "Total_pct": 77.77777777777777
                   }
                 },
                 "Skill 8": {
                   "base": {
-                    "Female": 16.666666666666668,
-                    "Male": 45,
-                    "Total": 38.46153846153846
+                    "Female_raw": 1,
+                    "Female_pct": 16.666666666666668,
+                    "Male_raw": 9,
+                    "Male_pct": 45,
+                    "Total_raw": 10,
+                    "Total_pct": 38.46153846153846
                   },
                   "end": {
-                    "Female": 85.71428571428571,
-                    "Male": 79.3103448275862,
-                    "Total": 80.55555555555556
+                    "Female_raw": 6,
+                    "Female_pct": 85.71428571428571,
+                    "Male_raw": 23,
+                    "Male_pct": 79.3103448275862,
+                    "Total_raw": 29,
+                    "Total_pct": 80.55555555555556
                   }
                 },
                 "Skill 9": {
                   "base": {
-                    "Female": 0,
-                    "Male": 35,
-                    "Total": 26.923076923076923
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 7,
+                    "Male_pct": 35,
+                    "Total_raw": 7,
+                    "Total_pct": 26.923076923076923
                   },
                   "end": {
-                    "Female": 71.42857142857143,
-                    "Male": 79.3103448275862,
-                    "Total": 77.77777777777777
+                    "Female_raw": 5,
+                    "Female_pct": 71.42857142857143,
+                    "Male_raw": 23,
+                    "Male_pct": 79.3103448275862,
+                    "Total_raw": 28,
+                    "Total_pct": 77.77777777777777
                   }
                 },
                 "Skill 10": {
                   "base": {
-                    "Female": 0,
-                    "Male": 30,
-                    "Total": 23.076923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 30,
+                    "Total_raw": 6,
+                    "Total_pct": 23.076923076923077
                   },
                   "end": {
-                    "Female": 71.42857142857143,
-                    "Male": 79.3103448275862,
-                    "Total": 77.77777777777777
+                    "Female_raw": 5,
+                    "Female_pct": 71.42857142857143,
+                    "Male_raw": 23,
+                    "Male_pct": 79.3103448275862,
+                    "Total_raw": 28,
+                    "Total_pct": 77.77777777777777
                   }
                 },
                 "Skill 11": {
                   "base": {
-                    "Female": 0,
-                    "Male": 40,
-                    "Total": 30.76923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 8,
+                    "Male_pct": 40,
+                    "Total_raw": 8,
+                    "Total_pct": 30.76923076923077
                   },
                   "end": {
-                    "Female": 57.142857142857146,
-                    "Male": 75.86206896551724,
-                    "Total": 72.22222222222223
+                    "Female_raw": 4,
+                    "Female_pct": 57.142857142857146,
+                    "Male_raw": 22,
+                    "Male_pct": 75.86206896551724,
+                    "Total_raw": 26,
+                    "Total_pct": 72.22222222222223
                   }
                 },
                 "Skill 12": {
                   "base": {
-                    "Female": 0,
-                    "Male": 35,
-                    "Total": 26.923076923076923
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 7,
+                    "Male_pct": 35,
+                    "Total_raw": 7,
+                    "Total_pct": 26.923076923076923
                   },
                   "end": {
-                    "Female": 71.42857142857143,
-                    "Male": 65.51724137931035,
-                    "Total": 66.66666666666667
+                    "Female_raw": 5,
+                    "Female_pct": 71.42857142857143,
+                    "Male_raw": 19,
+                    "Male_pct": 65.51724137931035,
+                    "Total_raw": 24,
+                    "Total_pct": 66.66666666666667
                   }
                 },
                 "Skill 13": {
                   "base": {
-                    "Female": 0,
-                    "Male": 15,
-                    "Total": 11.538461538461538
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 15,
+                    "Total_raw": 3,
+                    "Total_pct": 11.538461538461538
                   },
                   "end": {
-                    "Female": 71.42857142857143,
-                    "Male": 72.41379310344827,
-                    "Total": 72.22222222222223
+                    "Female_raw": 5,
+                    "Female_pct": 71.42857142857143,
+                    "Male_raw": 21,
+                    "Male_pct": 72.41379310344827,
+                    "Total_raw": 26,
+                    "Total_pct": 72.22222222222223
                   }
                 },
                 "Skill 14": {
                   "base": {
-                    "Female": 16.666666666666668,
-                    "Male": 45,
-                    "Total": 38.46153846153846
+                    "Female_raw": 1,
+                    "Female_pct": 16.666666666666668,
+                    "Male_raw": 9,
+                    "Male_pct": 45,
+                    "Total_raw": 10,
+                    "Total_pct": 38.46153846153846
                   },
                   "end": {
-                    "Female": 85.71428571428571,
-                    "Male": 86.20689655172414,
-                    "Total": 86.11111111111111
+                    "Female_raw": 6,
+                    "Female_pct": 85.71428571428571,
+                    "Male_raw": 25,
+                    "Male_pct": 86.20689655172414,
+                    "Total_raw": 31,
+                    "Total_pct": 86.11111111111111
                   }
                 },
                 "Skill 15": {
                   "base": {
-                    "Female": 0,
-                    "Male": 30,
-                    "Total": 23.076923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 30,
+                    "Total_raw": 6,
+                    "Total_pct": 23.076923076923077
                   },
                   "end": {
-                    "Female": 71.42857142857143,
-                    "Male": 72.41379310344827,
-                    "Total": 72.22222222222223
+                    "Female_raw": 5,
+                    "Female_pct": 71.42857142857143,
+                    "Male_raw": 21,
+                    "Male_pct": 72.41379310344827,
+                    "Total_raw": 26,
+                    "Total_pct": 72.22222222222223
                   }
                 },
                 "Skill 16": {
                   "base": {
-                    "Female": 16.666666666666668,
-                    "Male": 40,
-                    "Total": 34.61538461538461
+                    "Female_raw": 1,
+                    "Female_pct": 16.666666666666668,
+                    "Male_raw": 8,
+                    "Male_pct": 40,
+                    "Total_raw": 9,
+                    "Total_pct": 34.61538461538461
                   },
                   "end": {
-                    "Female": 85.71428571428571,
-                    "Male": 82.75862068965517,
-                    "Total": 83.33333333333333
+                    "Female_raw": 6,
+                    "Female_pct": 85.71428571428571,
+                    "Male_raw": 24,
+                    "Male_pct": 82.75862068965517,
+                    "Total_raw": 30,
+                    "Total_pct": 83.33333333333333
                   }
                 },
                 "Skill 17": {
                   "base": {
-                    "Female": 0,
-                    "Male": 30,
-                    "Total": 23.076923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 30,
+                    "Total_raw": 6,
+                    "Total_pct": 23.076923076923077
                   },
                   "end": {
-                    "Female": 71.42857142857143,
-                    "Male": 65.51724137931035,
-                    "Total": 66.66666666666667
+                    "Female_raw": 5,
+                    "Female_pct": 71.42857142857143,
+                    "Male_raw": 19,
+                    "Male_pct": 65.51724137931035,
+                    "Total_raw": 24,
+                    "Total_pct": 66.66666666666667
                   }
                 },
                 "Skill 18": {
                   "base": {
-                    "Female": 33.333333333333336,
-                    "Male": 65,
-                    "Total": 57.69230769230769
+                    "Female_raw": 2,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 13,
+                    "Male_pct": 65,
+                    "Total_raw": 15,
+                    "Total_pct": 57.69230769230769
                   },
                   "end": {
-                    "Female": 85.71428571428571,
-                    "Male": 93.10344827586206,
-                    "Total": 91.66666666666667
+                    "Female_raw": 6,
+                    "Female_pct": 85.71428571428571,
+                    "Male_raw": 27,
+                    "Male_pct": 93.10344827586206,
+                    "Total_raw": 33,
+                    "Total_pct": 91.66666666666667
                   }
                 },
                 "Skill 19": {
                   "base": {
-                    "Female": 33.333333333333336,
-                    "Male": 50,
-                    "Total": 46.15384615384615
+                    "Female_raw": 2,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 10,
+                    "Male_pct": 50,
+                    "Total_raw": 12,
+                    "Total_pct": 46.15384615384615
                   },
                   "end": {
-                    "Female": 85.71428571428571,
-                    "Male": 82.75862068965517,
-                    "Total": 83.33333333333333
+                    "Female_raw": 6,
+                    "Female_pct": 85.71428571428571,
+                    "Male_raw": 24,
+                    "Male_pct": 82.75862068965517,
+                    "Total_raw": 30,
+                    "Total_pct": 83.33333333333333
                   }
                 },
                 "Skill 20": {
                   "base": {
-                    "Female": 0,
-                    "Male": 30,
-                    "Total": 23.076923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 30,
+                    "Total_raw": 6,
+                    "Total_pct": 23.076923076923077
                   },
                   "end": {
-                    "Female": 57.142857142857146,
-                    "Male": 37.93103448275862,
-                    "Total": 41.666666666666664
+                    "Female_raw": 4,
+                    "Female_pct": 57.142857142857146,
+                    "Male_raw": 11,
+                    "Male_pct": 37.93103448275862,
+                    "Total_raw": 15,
+                    "Total_pct": 41.666666666666664
                   }
                 },
                 "Skill 21": {
                   "base": {
-                    "Female": 0,
-                    "Male": 30,
-                    "Total": 23.076923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 30,
+                    "Total_raw": 6,
+                    "Total_pct": 23.076923076923077
                   },
                   "end": {
-                    "Female": 42.857142857142854,
-                    "Male": 44.827586206896555,
-                    "Total": 44.44444444444444
+                    "Female_raw": 3,
+                    "Female_pct": 42.857142857142854,
+                    "Male_raw": 13,
+                    "Male_pct": 44.827586206896555,
+                    "Total_raw": 16,
+                    "Total_pct": 44.44444444444444
                   }
                 },
                 "Male": {
@@ -358,254 +484,380 @@
                 },
                 "Skill 1": {
                   "base": {
-                    "Female": 50,
-                    "Male": 57.142857142857146,
-                    "Total": 56
+                    "Female_raw": 2,
+                    "Female_pct": 50,
+                    "Male_raw": 12,
+                    "Male_pct": 57.142857142857146,
+                    "Total_raw": 14,
+                    "Total_pct": 56
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 88.46153846153847,
-                    "Total": 89.65517241379311
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 23,
+                    "Male_pct": 88.46153846153847,
+                    "Total_raw": 26,
+                    "Total_pct": 89.65517241379311
                   }
                 },
                 "Skill 2": {
                   "base": {
-                    "Female": 25,
-                    "Male": 47.61904761904762,
-                    "Total": 44
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 10,
+                    "Male_pct": 47.61904761904762,
+                    "Total_raw": 11,
+                    "Total_pct": 44
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 76.92307692307692,
-                    "Total": 75.86206896551724
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 20,
+                    "Male_pct": 76.92307692307692,
+                    "Total_raw": 22,
+                    "Total_pct": 75.86206896551724
                   }
                 },
                 "Skill 3": {
                   "base": {
-                    "Female": 0,
-                    "Male": 19.047619047619047,
-                    "Total": 16
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 19.047619047619047,
+                    "Total_raw": 4,
+                    "Total_pct": 16
                   },
                   "end": {
-                    "Female": 33.333333333333336,
-                    "Male": 65.38461538461539,
-                    "Total": 62.06896551724138
+                    "Female_raw": 1,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 17,
+                    "Male_pct": 65.38461538461539,
+                    "Total_raw": 18,
+                    "Total_pct": 62.06896551724138
                   }
                 },
                 "Skill 4": {
                   "base": {
-                    "Female": 25,
-                    "Male": 19.047619047619047,
-                    "Total": 20
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 4,
+                    "Male_pct": 19.047619047619047,
+                    "Total_raw": 5,
+                    "Total_pct": 20
                   },
                   "end": {
-                    "Female": 33.333333333333336,
-                    "Male": 50,
-                    "Total": 48.275862068965516
+                    "Female_raw": 1,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 13,
+                    "Male_pct": 50,
+                    "Total_raw": 14,
+                    "Total_pct": 48.275862068965516
                   }
                 },
                 "Skill 5": {
                   "base": {
-                    "Female": 25,
-                    "Male": 19.047619047619047,
-                    "Total": 20
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 4,
+                    "Male_pct": 19.047619047619047,
+                    "Total_raw": 5,
+                    "Total_pct": 20
                   },
                   "end": {
-                    "Female": 33.333333333333336,
-                    "Male": 50,
-                    "Total": 48.275862068965516
+                    "Female_raw": 1,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 13,
+                    "Male_pct": 50,
+                    "Total_raw": 14,
+                    "Total_pct": 48.275862068965516
                   }
                 },
                 "Skill 6": {
                   "base": {
-                    "Female": 25,
-                    "Male": 33.333333333333336,
-                    "Total": 32
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 7,
+                    "Male_pct": 33.333333333333336,
+                    "Total_raw": 8,
+                    "Total_pct": 32
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 57.69230769230769,
-                    "Total": 58.62068965517241
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 15,
+                    "Male_pct": 57.69230769230769,
+                    "Total_raw": 17,
+                    "Total_pct": 58.62068965517241
                   }
                 },
                 "Skill 7": {
                   "base": {
-                    "Female": 25,
-                    "Male": 38.095238095238095,
-                    "Total": 36
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 8,
+                    "Male_pct": 38.095238095238095,
+                    "Total_raw": 9,
+                    "Total_pct": 36
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 46.15384615384615,
-                    "Total": 48.275862068965516
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 12,
+                    "Male_pct": 46.15384615384615,
+                    "Total_raw": 14,
+                    "Total_pct": 48.275862068965516
                   }
                 },
                 "Skill 8": {
                   "base": {
-                    "Female": 75,
-                    "Male": 47.61904761904762,
-                    "Total": 52
+                    "Female_raw": 3,
+                    "Female_pct": 75,
+                    "Male_raw": 10,
+                    "Male_pct": 47.61904761904762,
+                    "Total_raw": 13,
+                    "Total_pct": 52
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 84.61538461538461,
-                    "Total": 86.20689655172414
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 22,
+                    "Male_pct": 84.61538461538461,
+                    "Total_raw": 25,
+                    "Total_pct": 86.20689655172414
                   }
                 },
                 "Skill 9": {
                   "base": {
-                    "Female": 25,
-                    "Male": 42.857142857142854,
-                    "Total": 39.99999999999999
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 9,
+                    "Male_pct": 42.857142857142854,
+                    "Total_raw": 10,
+                    "Total_pct": 39.99999999999999
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 73.07692307692308,
-                    "Total": 72.41379310344827
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 19,
+                    "Male_pct": 73.07692307692308,
+                    "Total_raw": 21,
+                    "Total_pct": 72.41379310344827
                   }
                 },
                 "Skill 10": {
                   "base": {
-                    "Female": 25,
-                    "Male": 33.333333333333336,
-                    "Total": 32
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 7,
+                    "Male_pct": 33.333333333333336,
+                    "Total_raw": 8,
+                    "Total_pct": 32
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 80.76923076923077,
-                    "Total": 79.3103448275862
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 21,
+                    "Male_pct": 80.76923076923077,
+                    "Total_raw": 23,
+                    "Total_pct": 79.3103448275862
                   }
                 },
                 "Skill 11": {
                   "base": {
-                    "Female": 0,
-                    "Male": 38.095238095238095,
-                    "Total": 32
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 8,
+                    "Male_pct": 38.095238095238095,
+                    "Total_raw": 8,
+                    "Total_pct": 32
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 61.53846153846154,
-                    "Total": 62.06896551724138
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 16,
+                    "Male_pct": 61.53846153846154,
+                    "Total_raw": 18,
+                    "Total_pct": 62.06896551724138
                   }
                 },
                 "Skill 12": {
                   "base": {
-                    "Female": 25,
-                    "Male": 42.857142857142854,
-                    "Total": 39.99999999999999
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 9,
+                    "Male_pct": 42.857142857142854,
+                    "Total_raw": 10,
+                    "Total_pct": 39.99999999999999
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 57.69230769230769,
-                    "Total": 58.62068965517241
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 15,
+                    "Male_pct": 57.69230769230769,
+                    "Total_raw": 17,
+                    "Total_pct": 58.62068965517241
                   }
                 },
                 "Skill 13": {
                   "base": {
-                    "Female": 50,
-                    "Male": 28.571428571428573,
-                    "Total": 32
+                    "Female_raw": 2,
+                    "Female_pct": 50,
+                    "Male_raw": 6,
+                    "Male_pct": 28.571428571428573,
+                    "Total_raw": 8,
+                    "Total_pct": 32
                   },
                   "end": {
-                    "Female": 33.333333333333336,
-                    "Male": 65.38461538461539,
-                    "Total": 62.06896551724138
+                    "Female_raw": 1,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 17,
+                    "Male_pct": 65.38461538461539,
+                    "Total_raw": 18,
+                    "Total_pct": 62.06896551724138
                   }
                 },
                 "Skill 14": {
                   "base": {
-                    "Female": 25,
-                    "Male": 42.857142857142854,
-                    "Total": 39.99999999999999
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 9,
+                    "Male_pct": 42.857142857142854,
+                    "Total_raw": 10,
+                    "Total_pct": 39.99999999999999
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 50,
-                    "Total": 51.724137931034484
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 13,
+                    "Male_pct": 50,
+                    "Total_raw": 15,
+                    "Total_pct": 51.724137931034484
                   }
                 },
                 "Skill 15": {
                   "base": {
-                    "Female": 50,
-                    "Male": 38.095238095238095,
-                    "Total": 40
+                    "Female_raw": 2,
+                    "Female_pct": 50,
+                    "Male_raw": 8,
+                    "Male_pct": 38.095238095238095,
+                    "Total_raw": 10,
+                    "Total_pct": 40
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 73.07692307692308,
-                    "Total": 75.86206896551724
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 19,
+                    "Male_pct": 73.07692307692308,
+                    "Total_raw": 22,
+                    "Total_pct": 75.86206896551724
                   }
                 },
                 "Skill 16": {
                   "base": {
-                    "Female": 50,
-                    "Male": 76.19047619047619,
-                    "Total": 72
+                    "Female_raw": 2,
+                    "Female_pct": 50,
+                    "Male_raw": 16,
+                    "Male_pct": 76.19047619047619,
+                    "Total_raw": 18,
+                    "Total_pct": 72
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 80.76923076923077,
-                    "Total": 79.3103448275862
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 21,
+                    "Male_pct": 80.76923076923077,
+                    "Total_raw": 23,
+                    "Total_pct": 79.3103448275862
                   }
                 },
                 "Skill 17": {
                   "base": {
-                    "Female": 50,
-                    "Male": 47.61904761904762,
-                    "Total": 48
+                    "Female_raw": 2,
+                    "Female_pct": 50,
+                    "Male_raw": 10,
+                    "Male_pct": 47.61904761904762,
+                    "Total_raw": 12,
+                    "Total_pct": 48
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 61.53846153846154,
-                    "Total": 62.06896551724138
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 16,
+                    "Male_pct": 61.53846153846154,
+                    "Total_raw": 18,
+                    "Total_pct": 62.06896551724138
                   }
                 },
                 "Skill 18": {
                   "base": {
-                    "Female": 100,
-                    "Male": 80.95238095238095,
-                    "Total": 84
+                    "Female_raw": 4,
+                    "Female_pct": 100,
+                    "Male_raw": 17,
+                    "Male_pct": 80.95238095238095,
+                    "Total_raw": 21,
+                    "Total_pct": 84
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 88.46153846153847,
-                    "Total": 89.65517241379311
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 23,
+                    "Male_pct": 88.46153846153847,
+                    "Total_raw": 26,
+                    "Total_pct": 89.65517241379311
                   }
                 },
                 "Skill 19": {
                   "base": {
-                    "Female": 75,
-                    "Male": 80.95238095238095,
-                    "Total": 80
+                    "Female_raw": 3,
+                    "Female_pct": 75,
+                    "Male_raw": 17,
+                    "Male_pct": 80.95238095238095,
+                    "Total_raw": 20,
+                    "Total_pct": 80
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 84.61538461538461,
-                    "Total": 86.20689655172414
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 22,
+                    "Male_pct": 84.61538461538461,
+                    "Total_raw": 25,
+                    "Total_pct": 86.20689655172414
                   }
                 },
                 "Skill 20": {
                   "base": {
-                    "Female": 50,
-                    "Male": 23.80952380952381,
-                    "Total": 28
+                    "Female_raw": 2,
+                    "Female_pct": 50,
+                    "Male_raw": 5,
+                    "Male_pct": 23.80952380952381,
+                    "Total_raw": 7,
+                    "Total_pct": 28
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 42.30769230769231,
-                    "Total": 48.275862068965516
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 11,
+                    "Male_pct": 42.30769230769231,
+                    "Total_raw": 14,
+                    "Total_pct": 48.275862068965516
                   }
                 },
                 "Skill 21": {
                   "base": {
-                    "Female": 50,
-                    "Male": 23.80952380952381,
-                    "Total": 28
+                    "Female_raw": 2,
+                    "Female_pct": 50,
+                    "Male_raw": 5,
+                    "Male_pct": 23.80952380952381,
+                    "Total_raw": 7,
+                    "Total_pct": 28
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 46.15384615384615,
-                    "Total": 51.724137931034484
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 12,
+                    "Male_pct": 46.15384615384615,
+                    "Total_raw": 15,
+                    "Total_pct": 51.724137931034484
                   }
                 },
                 "Male": {
@@ -634,254 +886,380 @@
                 },
                 "Skill 1": {
                   "base": {
-                    "Female": 15.384615384615385,
-                    "Male": 42.857142857142854,
-                    "Total": 29.62962962962963
+                    "Female_raw": 2,
+                    "Female_pct": 15.384615384615385,
+                    "Male_raw": 6,
+                    "Male_pct": 42.857142857142854,
+                    "Total_raw": 8,
+                    "Total_pct": 29.62962962962963
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 88.23529411764706,
-                    "Total": 92.3076923076923
+                    "Female_raw": 9,
+                    "Female_pct": 100,
+                    "Male_raw": 15,
+                    "Male_pct": 88.23529411764706,
+                    "Total_raw": 24,
+                    "Total_pct": 92.3076923076923
                   }
                 },
                 "Skill 2": {
                   "base": {
-                    "Female": 15.384615384615385,
-                    "Male": 42.857142857142854,
-                    "Total": 29.62962962962963
+                    "Female_raw": 2,
+                    "Female_pct": 15.384615384615385,
+                    "Male_raw": 6,
+                    "Male_pct": 42.857142857142854,
+                    "Total_raw": 8,
+                    "Total_pct": 29.62962962962963
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 70.58823529411765,
-                    "Total": 80.76923076923077
+                    "Female_raw": 9,
+                    "Female_pct": 100,
+                    "Male_raw": 12,
+                    "Male_pct": 70.58823529411765,
+                    "Total_raw": 21,
+                    "Total_pct": 80.76923076923077
                   }
                 },
                 "Skill 3": {
                   "base": {
-                    "Female": 0,
-                    "Male": 7.142857142857143,
-                    "Total": 3.7037037037037037
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 1,
+                    "Male_pct": 7.142857142857143,
+                    "Total_raw": 1,
+                    "Total_pct": 3.7037037037037037
                   },
                   "end": {
-                    "Female": 44.44444444444444,
-                    "Male": 52.94117647058823,
-                    "Total": 50
+                    "Female_raw": 4,
+                    "Female_pct": 44.44444444444444,
+                    "Male_raw": 9,
+                    "Male_pct": 52.94117647058823,
+                    "Total_raw": 13,
+                    "Total_pct": 50
                   }
                 },
                 "Skill 4": {
                   "base": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   },
                   "end": {
-                    "Female": 44.44444444444444,
-                    "Male": 47.05882352941177,
-                    "Total": 46.15384615384615
+                    "Female_raw": 4,
+                    "Female_pct": 44.44444444444444,
+                    "Male_raw": 8,
+                    "Male_pct": 47.05882352941177,
+                    "Total_raw": 12,
+                    "Total_pct": 46.15384615384615
                   }
                 },
                 "Skill 5": {
                   "base": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   },
                   "end": {
-                    "Female": 44.44444444444444,
-                    "Male": 52.94117647058823,
-                    "Total": 50
+                    "Female_raw": 4,
+                    "Female_pct": 44.44444444444444,
+                    "Male_raw": 9,
+                    "Male_pct": 52.94117647058823,
+                    "Total_raw": 13,
+                    "Total_pct": 50
                   }
                 },
                 "Skill 6": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 35.714285714285715,
-                    "Total": 22.22222222222222
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 5,
+                    "Male_pct": 35.714285714285715,
+                    "Total_raw": 6,
+                    "Total_pct": 22.22222222222222
                   },
                   "end": {
-                    "Female": 88.88888888888889,
-                    "Male": 76.47058823529412,
-                    "Total": 80.76923076923077
+                    "Female_raw": 8,
+                    "Female_pct": 88.88888888888889,
+                    "Male_raw": 13,
+                    "Male_pct": 76.47058823529412,
+                    "Total_raw": 21,
+                    "Total_pct": 80.76923076923077
                   }
                 },
                 "Skill 7": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 21.428571428571427,
-                    "Total": 14.814814814814815
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 3,
+                    "Male_pct": 21.428571428571427,
+                    "Total_raw": 4,
+                    "Total_pct": 14.814814814814815
                   },
                   "end": {
-                    "Female": 88.88888888888889,
-                    "Male": 64.70588235294117,
-                    "Total": 73.07692307692308
+                    "Female_raw": 8,
+                    "Female_pct": 88.88888888888889,
+                    "Male_raw": 11,
+                    "Male_pct": 64.70588235294117,
+                    "Total_raw": 19,
+                    "Total_pct": 73.07692307692308
                   }
                 },
                 "Skill 8": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 28.571428571428573,
-                    "Total": 18.51851851851852
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 4,
+                    "Male_pct": 28.571428571428573,
+                    "Total_raw": 5,
+                    "Total_pct": 18.51851851851852
                   },
                   "end": {
-                    "Female": 88.88888888888889,
-                    "Male": 76.47058823529412,
-                    "Total": 80.76923076923077
+                    "Female_raw": 8,
+                    "Female_pct": 88.88888888888889,
+                    "Male_raw": 13,
+                    "Male_pct": 76.47058823529412,
+                    "Total_raw": 21,
+                    "Total_pct": 80.76923076923077
                   }
                 },
                 "Skill 9": {
                   "base": {
-                    "Female": 15.384615384615385,
-                    "Male": 21.428571428571427,
-                    "Total": 18.51851851851852
+                    "Female_raw": 2,
+                    "Female_pct": 15.384615384615385,
+                    "Male_raw": 3,
+                    "Male_pct": 21.428571428571427,
+                    "Total_raw": 5,
+                    "Total_pct": 18.51851851851852
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 64.70588235294117,
-                    "Total": 65.38461538461539
+                    "Female_raw": 6,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 11,
+                    "Male_pct": 64.70588235294117,
+                    "Total_raw": 17,
+                    "Total_pct": 65.38461538461539
                   }
                 },
                 "Skill 10": {
                   "base": {
-                    "Female": 15.384615384615385,
-                    "Male": 14.285714285714286,
-                    "Total": 14.814814814814815
+                    "Female_raw": 2,
+                    "Female_pct": 15.384615384615385,
+                    "Male_raw": 2,
+                    "Male_pct": 14.285714285714286,
+                    "Total_raw": 4,
+                    "Total_pct": 14.814814814814815
                   },
                   "end": {
-                    "Female": 77.77777777777777,
-                    "Male": 64.70588235294117,
-                    "Total": 69.23076923076923
+                    "Female_raw": 7,
+                    "Female_pct": 77.77777777777777,
+                    "Male_raw": 11,
+                    "Male_pct": 64.70588235294117,
+                    "Total_raw": 18,
+                    "Total_pct": 69.23076923076923
                   }
                 },
                 "Skill 11": {
                   "base": {
-                    "Female": 15.384615384615385,
-                    "Male": 28.571428571428573,
-                    "Total": 22.22222222222222
+                    "Female_raw": 2,
+                    "Female_pct": 15.384615384615385,
+                    "Male_raw": 4,
+                    "Male_pct": 28.571428571428573,
+                    "Total_raw": 6,
+                    "Total_pct": 22.22222222222222
                   },
                   "end": {
-                    "Female": 77.77777777777777,
-                    "Male": 64.70588235294117,
-                    "Total": 69.23076923076923
+                    "Female_raw": 7,
+                    "Female_pct": 77.77777777777777,
+                    "Male_raw": 11,
+                    "Male_pct": 64.70588235294117,
+                    "Total_raw": 18,
+                    "Total_pct": 69.23076923076923
                   }
                 },
                 "Skill 12": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 14.285714285714286,
-                    "Total": 11.11111111111111
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 2,
+                    "Male_pct": 14.285714285714286,
+                    "Total_raw": 3,
+                    "Total_pct": 11.11111111111111
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 52.94117647058823,
-                    "Total": 57.69230769230769
+                    "Female_raw": 6,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 9,
+                    "Male_pct": 52.94117647058823,
+                    "Total_raw": 15,
+                    "Total_pct": 57.69230769230769
                   }
                 },
                 "Skill 13": {
                   "base": {
-                    "Female": 0,
-                    "Male": 21.428571428571427,
-                    "Total": 11.11111111111111
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 21.428571428571427,
+                    "Total_raw": 3,
+                    "Total_pct": 11.11111111111111
                   },
                   "end": {
-                    "Female": 55.55555555555556,
-                    "Male": 58.8235294117647,
-                    "Total": 57.69230769230769
+                    "Female_raw": 5,
+                    "Female_pct": 55.55555555555556,
+                    "Male_raw": 10,
+                    "Male_pct": 58.8235294117647,
+                    "Total_raw": 15,
+                    "Total_pct": 57.69230769230769
                   }
                 },
                 "Skill 14": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 35.714285714285715,
-                    "Total": 22.22222222222222
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 5,
+                    "Male_pct": 35.714285714285715,
+                    "Total_raw": 6,
+                    "Total_pct": 22.22222222222222
                   },
                   "end": {
-                    "Female": 88.88888888888889,
-                    "Male": 76.47058823529412,
-                    "Total": 80.76923076923077
+                    "Female_raw": 8,
+                    "Female_pct": 88.88888888888889,
+                    "Male_raw": 13,
+                    "Male_pct": 76.47058823529412,
+                    "Total_raw": 21,
+                    "Total_pct": 80.76923076923077
                   }
                 },
                 "Skill 15": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 21.428571428571427,
-                    "Total": 14.814814814814815
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 3,
+                    "Male_pct": 21.428571428571427,
+                    "Total_raw": 4,
+                    "Total_pct": 14.814814814814815
                   },
                   "end": {
-                    "Female": 88.88888888888889,
-                    "Male": 58.8235294117647,
-                    "Total": 69.23076923076923
+                    "Female_raw": 8,
+                    "Female_pct": 88.88888888888889,
+                    "Male_raw": 10,
+                    "Male_pct": 58.8235294117647,
+                    "Total_raw": 18,
+                    "Total_pct": 69.23076923076923
                   }
                 },
                 "Skill 16": {
                   "base": {
-                    "Female": 15.384615384615385,
-                    "Male": 35.714285714285715,
-                    "Total": 25.925925925925927
+                    "Female_raw": 2,
+                    "Female_pct": 15.384615384615385,
+                    "Male_raw": 5,
+                    "Male_pct": 35.714285714285715,
+                    "Total_raw": 7,
+                    "Total_pct": 25.925925925925927
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 70.58823529411765,
-                    "Total": 80.76923076923077
+                    "Female_raw": 9,
+                    "Female_pct": 100,
+                    "Male_raw": 12,
+                    "Male_pct": 70.58823529411765,
+                    "Total_raw": 21,
+                    "Total_pct": 80.76923076923077
                   }
                 },
                 "Skill 17": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 14.285714285714286,
-                    "Total": 11.11111111111111
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 2,
+                    "Male_pct": 14.285714285714286,
+                    "Total_raw": 3,
+                    "Total_pct": 11.11111111111111
                   },
                   "end": {
-                    "Female": 77.77777777777777,
-                    "Male": 58.8235294117647,
-                    "Total": 65.38461538461539
+                    "Female_raw": 7,
+                    "Female_pct": 77.77777777777777,
+                    "Male_raw": 10,
+                    "Male_pct": 58.8235294117647,
+                    "Total_raw": 17,
+                    "Total_pct": 65.38461538461539
                   }
                 },
                 "Skill 18": {
                   "base": {
-                    "Female": 15.384615384615385,
-                    "Male": 50,
-                    "Total": 33.333333333333336
+                    "Female_raw": 2,
+                    "Female_pct": 15.384615384615385,
+                    "Male_raw": 7,
+                    "Male_pct": 50,
+                    "Total_raw": 9,
+                    "Total_pct": 33.333333333333336
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 88.23529411764706,
-                    "Total": 92.3076923076923
+                    "Female_raw": 9,
+                    "Female_pct": 100,
+                    "Male_raw": 15,
+                    "Male_pct": 88.23529411764706,
+                    "Total_raw": 24,
+                    "Total_pct": 92.3076923076923
                   }
                 },
                 "Skill 19": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 42.857142857142854,
-                    "Total": 25.925925925925927
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 6,
+                    "Male_pct": 42.857142857142854,
+                    "Total_raw": 7,
+                    "Total_pct": 25.925925925925927
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 76.47058823529412,
-                    "Total": 84.61538461538461
+                    "Female_raw": 9,
+                    "Female_pct": 100,
+                    "Male_raw": 13,
+                    "Male_pct": 76.47058823529412,
+                    "Total_raw": 22,
+                    "Total_pct": 84.61538461538461
                   }
                 },
                 "Skill 20": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 7.142857142857143,
-                    "Total": 7.407407407407407
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 1,
+                    "Male_pct": 7.142857142857143,
+                    "Total_raw": 2,
+                    "Total_pct": 7.407407407407407
                   },
                   "end": {
-                    "Female": 44.44444444444444,
-                    "Male": 47.05882352941177,
-                    "Total": 46.15384615384615
+                    "Female_raw": 4,
+                    "Female_pct": 44.44444444444444,
+                    "Male_raw": 8,
+                    "Male_pct": 47.05882352941177,
+                    "Total_raw": 12,
+                    "Total_pct": 46.15384615384615
                   }
                 },
                 "Skill 21": {
                   "base": {
-                    "Female": 7.6923076923076925,
-                    "Male": 14.285714285714286,
-                    "Total": 11.11111111111111
+                    "Female_raw": 1,
+                    "Female_pct": 7.6923076923076925,
+                    "Male_raw": 2,
+                    "Male_pct": 14.285714285714286,
+                    "Total_raw": 3,
+                    "Total_pct": 11.11111111111111
                   },
                   "end": {
-                    "Female": 44.44444444444444,
-                    "Male": 52.94117647058823,
-                    "Total": 50
+                    "Female_raw": 4,
+                    "Female_pct": 44.44444444444444,
+                    "Male_raw": 9,
+                    "Male_pct": 52.94117647058823,
+                    "Total_raw": 13,
+                    "Total_pct": 50
                   }
                 },
                 "Male": {
@@ -910,254 +1288,380 @@
                 },
                 "Skill 1": {
                   "base": {
-                    "Female": 20,
-                    "Male": 55,
-                    "Total": 48
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 11,
+                    "Male_pct": 55,
+                    "Total_raw": 12,
+                    "Total_pct": 48
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 94.44444444444444,
-                    "Total": 95.23809523809524
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 17,
+                    "Male_pct": 94.44444444444444,
+                    "Total_raw": 20,
+                    "Total_pct": 95.23809523809524
                   }
                 },
                 "Skill 2": {
                   "base": {
-                    "Female": 20,
-                    "Male": 20,
-                    "Total": 20
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 4,
+                    "Male_pct": 20,
+                    "Total_raw": 5,
+                    "Total_pct": 20
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 83.33333333333333,
-                    "Total": 85.71428571428571
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 15,
+                    "Male_pct": 83.33333333333333,
+                    "Total_raw": 18,
+                    "Total_pct": 85.71428571428571
                   }
                 },
                 "Skill 3": {
                   "base": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 66.66666666666667,
-                    "Total": 66.66666666666667
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 12,
+                    "Male_pct": 66.66666666666667,
+                    "Total_raw": 14,
+                    "Total_pct": 66.66666666666667
                   }
                 },
                 "Skill 4": {
                   "base": {
-                    "Female": 20,
-                    "Male": 10,
-                    "Total": 12
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 2,
+                    "Male_pct": 10,
+                    "Total_raw": 3,
+                    "Total_pct": 12
                   },
                   "end": {
-                    "Female": 33.333333333333336,
-                    "Male": 27.77777777777778,
-                    "Total": 28.571428571428573
+                    "Female_raw": 1,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 5,
+                    "Male_pct": 27.77777777777778,
+                    "Total_raw": 6,
+                    "Total_pct": 28.571428571428573
                   }
                 },
                 "Skill 5": {
                   "base": {
-                    "Female": 20,
-                    "Male": 10,
-                    "Total": 12
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 2,
+                    "Male_pct": 10,
+                    "Total_raw": 3,
+                    "Total_pct": 12
                   },
                   "end": {
-                    "Female": 33.333333333333336,
-                    "Male": 22.22222222222222,
-                    "Total": 23.80952380952381
+                    "Female_raw": 1,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 4,
+                    "Male_pct": 22.22222222222222,
+                    "Total_raw": 5,
+                    "Total_pct": 23.80952380952381
                   }
                 },
                 "Skill 6": {
                   "base": {
-                    "Female": 20,
-                    "Male": 20,
-                    "Total": 20
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 4,
+                    "Male_pct": 20,
+                    "Total_raw": 5,
+                    "Total_pct": 20
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 77.77777777777777,
-                    "Total": 80.95238095238095
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 14,
+                    "Male_pct": 77.77777777777777,
+                    "Total_raw": 17,
+                    "Total_pct": 80.95238095238095
                   }
                 },
                 "Skill 7": {
                   "base": {
-                    "Female": 20,
-                    "Male": 10,
-                    "Total": 12
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 2,
+                    "Male_pct": 10,
+                    "Total_raw": 3,
+                    "Total_pct": 12
                   },
                   "end": {
-                    "Female": 33.333333333333336,
-                    "Male": 61.111111111111114,
-                    "Total": 57.142857142857146
+                    "Female_raw": 1,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 11,
+                    "Male_pct": 61.111111111111114,
+                    "Total_raw": 12,
+                    "Total_pct": 57.142857142857146
                   }
                 },
                 "Skill 8": {
                   "base": {
-                    "Female": 40,
-                    "Male": 25,
-                    "Total": 28
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 5,
+                    "Male_pct": 25,
+                    "Total_raw": 7,
+                    "Total_pct": 28
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 83.33333333333333,
-                    "Total": 85.71428571428571
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 15,
+                    "Male_pct": 83.33333333333333,
+                    "Total_raw": 18,
+                    "Total_pct": 85.71428571428571
                   }
                 },
                 "Skill 9": {
                   "base": {
-                    "Female": 20,
-                    "Male": 15,
-                    "Total": 16
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 3,
+                    "Male_pct": 15,
+                    "Total_raw": 4,
+                    "Total_pct": 16
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 83.33333333333333,
-                    "Total": 80.95238095238095
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 15,
+                    "Male_pct": 83.33333333333333,
+                    "Total_raw": 17,
+                    "Total_pct": 80.95238095238095
                   }
                 },
                 "Skill 10": {
                   "base": {
-                    "Female": 20,
-                    "Male": 10,
-                    "Total": 12
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 2,
+                    "Male_pct": 10,
+                    "Total_raw": 3,
+                    "Total_pct": 12
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 77.77777777777777,
-                    "Total": 76.19047619047619
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 14,
+                    "Male_pct": 77.77777777777777,
+                    "Total_raw": 16,
+                    "Total_pct": 76.19047619047619
                   }
                 },
                 "Skill 11": {
                   "base": {
-                    "Female": 60,
-                    "Male": 10,
-                    "Total": 20
+                    "Female_raw": 3,
+                    "Female_pct": 60,
+                    "Male_raw": 2,
+                    "Male_pct": 10,
+                    "Total_raw": 5,
+                    "Total_pct": 20
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 72.22222222222223,
-                    "Total": 71.42857142857143
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 13,
+                    "Male_pct": 72.22222222222223,
+                    "Total_raw": 15,
+                    "Total_pct": 71.42857142857143
                   }
                 },
                 "Skill 12": {
                   "base": {
-                    "Female": 20,
-                    "Male": 10,
-                    "Total": 12
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 2,
+                    "Male_pct": 10,
+                    "Total_raw": 3,
+                    "Total_pct": 12
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 44.44444444444444,
-                    "Total": 47.61904761904762
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 8,
+                    "Male_pct": 44.44444444444444,
+                    "Total_raw": 10,
+                    "Total_pct": 47.61904761904762
                   }
                 },
                 "Skill 13": {
                   "base": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 61.111111111111114,
-                    "Total": 61.904761904761905
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 11,
+                    "Male_pct": 61.111111111111114,
+                    "Total_raw": 13,
+                    "Total_pct": 61.904761904761905
                   }
                 },
                 "Skill 14": {
                   "base": {
-                    "Female": 20,
-                    "Male": 15,
-                    "Total": 16
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 3,
+                    "Male_pct": 15,
+                    "Total_raw": 4,
+                    "Total_pct": 16
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 77.77777777777777,
-                    "Total": 80.95238095238095
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 14,
+                    "Male_pct": 77.77777777777777,
+                    "Total_raw": 17,
+                    "Total_pct": 80.95238095238095
                   }
                 },
                 "Skill 15": {
                   "base": {
-                    "Female": 40,
-                    "Male": 20,
-                    "Total": 24
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 4,
+                    "Male_pct": 20,
+                    "Total_raw": 6,
+                    "Total_pct": 24
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 72.22222222222223,
-                    "Total": 71.42857142857143
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 13,
+                    "Male_pct": 72.22222222222223,
+                    "Total_raw": 15,
+                    "Total_pct": 71.42857142857143
                   }
                 },
                 "Skill 16": {
                   "base": {
-                    "Female": 20,
-                    "Male": 15,
-                    "Total": 16
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 3,
+                    "Male_pct": 15,
+                    "Total_raw": 4,
+                    "Total_pct": 16
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 83.33333333333333,
-                    "Total": 85.71428571428571
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 15,
+                    "Male_pct": 83.33333333333333,
+                    "Total_raw": 18,
+                    "Total_pct": 85.71428571428571
                   }
                 },
                 "Skill 17": {
                   "base": {
-                    "Female": 20,
-                    "Male": 20,
-                    "Total": 20
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 4,
+                    "Male_pct": 20,
+                    "Total_raw": 5,
+                    "Total_pct": 20
                   },
                   "end": {
-                    "Female": 66.66666666666667,
-                    "Male": 50,
-                    "Total": 52.38095238095238
+                    "Female_raw": 2,
+                    "Female_pct": 66.66666666666667,
+                    "Male_raw": 9,
+                    "Male_pct": 50,
+                    "Total_raw": 11,
+                    "Total_pct": 52.38095238095238
                   }
                 },
                 "Skill 18": {
                   "base": {
-                    "Female": 40,
-                    "Male": 45,
-                    "Total": 44
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 9,
+                    "Male_pct": 45,
+                    "Total_raw": 11,
+                    "Total_pct": 44
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 94.44444444444444,
-                    "Total": 95.23809523809524
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 17,
+                    "Male_pct": 94.44444444444444,
+                    "Total_raw": 20,
+                    "Total_pct": 95.23809523809524
                   }
                 },
                 "Skill 19": {
                   "base": {
-                    "Female": 40,
-                    "Male": 35,
-                    "Total": 36
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 7,
+                    "Male_pct": 35,
+                    "Total_raw": 9,
+                    "Total_pct": 36
                   },
                   "end": {
-                    "Female": 100,
-                    "Male": 83.33333333333333,
-                    "Total": 85.71428571428571
+                    "Female_raw": 3,
+                    "Female_pct": 100,
+                    "Male_raw": 15,
+                    "Male_pct": 83.33333333333333,
+                    "Total_raw": 18,
+                    "Total_pct": 85.71428571428571
                   }
                 },
                 "Skill 20": {
                   "base": {
-                    "Female": 20,
-                    "Male": 0,
-                    "Total": 4
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 1,
+                    "Total_pct": 4
                   },
                   "end": {
-                    "Female": 33.333333333333336,
-                    "Male": 22.22222222222222,
-                    "Total": 23.80952380952381
+                    "Female_raw": 1,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 4,
+                    "Male_pct": 22.22222222222222,
+                    "Total_raw": 5,
+                    "Total_pct": 23.80952380952381
                   }
                 },
                 "Skill 21": {
                   "base": {
-                    "Female": 20,
-                    "Male": 0,
-                    "Total": 4
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 1,
+                    "Total_pct": 4
                   },
                   "end": {
-                    "Female": 33.333333333333336,
-                    "Male": 22.22222222222222,
-                    "Total": 23.80952380952381
+                    "Female_raw": 1,
+                    "Female_pct": 33.333333333333336,
+                    "Male_raw": 4,
+                    "Male_pct": 22.22222222222222,
+                    "Total_raw": 5,
+                    "Total_pct": 23.80952380952381
                   }
                 },
                 "Male": {
@@ -1186,254 +1690,380 @@
                 },
                 "Skill 1": {
                   "base": {
-                    "Female": 20,
-                    "Male": 41.37931034482759,
-                    "Total": 38.23529411764706
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 12,
+                    "Male_pct": 41.37931034482759,
+                    "Total_raw": 13,
+                    "Total_pct": 38.23529411764706
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 58.333333333333336,
-                    "Total": 57.69230769230769
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 14,
+                    "Male_pct": 58.333333333333336,
+                    "Total_raw": 15,
+                    "Total_pct": 57.69230769230769
                   }
                 },
                 "Skill 2": {
                   "base": {
-                    "Female": 20,
-                    "Male": 27.586206896551722,
-                    "Total": 26.470588235294116
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 8,
+                    "Male_pct": 27.586206896551722,
+                    "Total_raw": 9,
+                    "Total_pct": 26.470588235294116
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 54.166666666666664,
-                    "Total": 50
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 13,
+                    "Male_pct": 54.166666666666664,
+                    "Total_raw": 13,
+                    "Total_pct": 50
                   }
                 },
                 "Skill 3": {
                   "base": {
-                    "Female": 40,
-                    "Male": 13.793103448275861,
-                    "Total": 17.647058823529413
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 4,
+                    "Male_pct": 13.793103448275861,
+                    "Total_raw": 6,
+                    "Total_pct": 17.647058823529413
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 16.666666666666668,
-                    "Total": 15.384615384615385
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 16.666666666666668,
+                    "Total_raw": 4,
+                    "Total_pct": 15.384615384615385
                   }
                 },
                 "Skill 4": {
                   "base": {
-                    "Female": 20,
-                    "Male": 13.793103448275861,
-                    "Total": 14.705882352941176
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 4,
+                    "Male_pct": 13.793103448275861,
+                    "Total_raw": 5,
+                    "Total_pct": 14.705882352941176
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 20.833333333333332,
-                    "Total": 19.23076923076923
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 5,
+                    "Male_pct": 20.833333333333332,
+                    "Total_raw": 5,
+                    "Total_pct": 19.23076923076923
                   }
                 },
                 "Skill 5": {
                   "base": {
-                    "Female": 20,
-                    "Male": 17.24137931034483,
-                    "Total": 17.647058823529413
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 5,
+                    "Male_pct": 17.24137931034483,
+                    "Total_raw": 6,
+                    "Total_pct": 17.647058823529413
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 16.666666666666668,
-                    "Total": 15.384615384615385
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 16.666666666666668,
+                    "Total_raw": 4,
+                    "Total_pct": 15.384615384615385
                   }
                 },
                 "Skill 6": {
                   "base": {
-                    "Female": 40,
-                    "Male": 24.137931034482758,
-                    "Total": 26.470588235294116
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 7,
+                    "Male_pct": 24.137931034482758,
+                    "Total_raw": 9,
+                    "Total_pct": 26.470588235294116
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 50,
-                    "Total": 50
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 12,
+                    "Male_pct": 50,
+                    "Total_raw": 13,
+                    "Total_pct": 50
                   }
                 },
                 "Skill 7": {
                   "base": {
-                    "Female": 40,
-                    "Male": 27.586206896551722,
-                    "Total": 29.41176470588235
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 8,
+                    "Male_pct": 27.586206896551722,
+                    "Total_raw": 10,
+                    "Total_pct": 29.41176470588235
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 29.166666666666668,
-                    "Total": 26.923076923076923
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 7,
+                    "Male_pct": 29.166666666666668,
+                    "Total_raw": 7,
+                    "Total_pct": 26.923076923076923
                   }
                 },
                 "Skill 8": {
                   "base": {
-                    "Female": 40,
-                    "Male": 24.137931034482758,
-                    "Total": 26.470588235294116
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 7,
+                    "Male_pct": 24.137931034482758,
+                    "Total_raw": 9,
+                    "Total_pct": 26.470588235294116
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 45.833333333333336,
-                    "Total": 46.15384615384615
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 11,
+                    "Male_pct": 45.833333333333336,
+                    "Total_raw": 12,
+                    "Total_pct": 46.15384615384615
                   }
                 },
                 "Skill 9": {
                   "base": {
-                    "Female": 40,
-                    "Male": 24.137931034482758,
-                    "Total": 26.470588235294116
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 7,
+                    "Male_pct": 24.137931034482758,
+                    "Total_raw": 9,
+                    "Total_pct": 26.470588235294116
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 41.666666666666664,
-                    "Total": 38.46153846153846
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 10,
+                    "Male_pct": 41.666666666666664,
+                    "Total_raw": 10,
+                    "Total_pct": 38.46153846153846
                   }
                 },
                 "Skill 10": {
                   "base": {
-                    "Female": 20,
-                    "Male": 20.689655172413794,
-                    "Total": 20.58823529411765
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 6,
+                    "Male_pct": 20.689655172413794,
+                    "Total_raw": 7,
+                    "Total_pct": 20.58823529411765
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 50,
-                    "Total": 46.15384615384615
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 12,
+                    "Male_pct": 50,
+                    "Total_raw": 12,
+                    "Total_pct": 46.15384615384615
                   }
                 },
                 "Skill 11": {
                   "base": {
-                    "Female": 20,
-                    "Male": 24.137931034482758,
-                    "Total": 23.529411764705884
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 7,
+                    "Male_pct": 24.137931034482758,
+                    "Total_raw": 8,
+                    "Total_pct": 23.529411764705884
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 45.833333333333336,
-                    "Total": 46.15384615384615
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 11,
+                    "Male_pct": 45.833333333333336,
+                    "Total_raw": 12,
+                    "Total_pct": 46.15384615384615
                   }
                 },
                 "Skill 12": {
                   "base": {
-                    "Female": 20,
-                    "Male": 20.689655172413794,
-                    "Total": 20.58823529411765
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 6,
+                    "Male_pct": 20.689655172413794,
+                    "Total_raw": 7,
+                    "Total_pct": 20.58823529411765
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 37.5,
-                    "Total": 38.46153846153846
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 9,
+                    "Male_pct": 37.5,
+                    "Total_raw": 10,
+                    "Total_pct": 38.46153846153846
                   }
                 },
                 "Skill 13": {
                   "base": {
-                    "Female": 60,
-                    "Male": 13.793103448275861,
-                    "Total": 20.58823529411765
+                    "Female_raw": 3,
+                    "Female_pct": 60,
+                    "Male_raw": 4,
+                    "Male_pct": 13.793103448275861,
+                    "Total_raw": 7,
+                    "Total_pct": 20.58823529411765
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 12.5,
-                    "Total": 11.538461538461538
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 12.5,
+                    "Total_raw": 3,
+                    "Total_pct": 11.538461538461538
                   }
                 },
                 "Skill 14": {
                   "base": {
-                    "Female": 40,
-                    "Male": 24.137931034482758,
-                    "Total": 26.470588235294116
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 7,
+                    "Male_pct": 24.137931034482758,
+                    "Total_raw": 9,
+                    "Total_pct": 26.470588235294116
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 45.833333333333336,
-                    "Total": 46.15384615384615
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 11,
+                    "Male_pct": 45.833333333333336,
+                    "Total_raw": 12,
+                    "Total_pct": 46.15384615384615
                   }
                 },
                 "Skill 15": {
                   "base": {
-                    "Female": 40,
-                    "Male": 31.03448275862069,
-                    "Total": 32.35294117647059
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 9,
+                    "Male_pct": 31.03448275862069,
+                    "Total_raw": 11,
+                    "Total_pct": 32.35294117647059
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 50,
-                    "Total": 50
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 12,
+                    "Male_pct": 50,
+                    "Total_raw": 13,
+                    "Total_pct": 50
                   }
                 },
                 "Skill 16": {
                   "base": {
-                    "Female": 20,
-                    "Male": 24.137931034482758,
-                    "Total": 23.529411764705884
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 7,
+                    "Male_pct": 24.137931034482758,
+                    "Total_raw": 8,
+                    "Total_pct": 23.529411764705884
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 54.166666666666664,
-                    "Total": 53.84615384615385
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 13,
+                    "Male_pct": 54.166666666666664,
+                    "Total_raw": 14,
+                    "Total_pct": 53.84615384615385
                   }
                 },
                 "Skill 17": {
                   "base": {
-                    "Female": 20,
-                    "Male": 17.24137931034483,
-                    "Total": 17.647058823529413
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 5,
+                    "Male_pct": 17.24137931034483,
+                    "Total_raw": 6,
+                    "Total_pct": 17.647058823529413
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 33.333333333333336,
-                    "Total": 34.61538461538461
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 8,
+                    "Male_pct": 33.333333333333336,
+                    "Total_raw": 9,
+                    "Total_pct": 34.61538461538461
                   }
                 },
                 "Skill 18": {
                   "base": {
-                    "Female": 20,
-                    "Male": 41.37931034482759,
-                    "Total": 38.23529411764706
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 12,
+                    "Male_pct": 41.37931034482759,
+                    "Total_raw": 13,
+                    "Total_pct": 38.23529411764706
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 58.333333333333336,
-                    "Total": 57.69230769230769
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 14,
+                    "Male_pct": 58.333333333333336,
+                    "Total_raw": 15,
+                    "Total_pct": 57.69230769230769
                   }
                 },
                 "Skill 19": {
                   "base": {
-                    "Female": 40,
-                    "Male": 27.586206896551722,
-                    "Total": 29.41176470588235
+                    "Female_raw": 2,
+                    "Female_pct": 40,
+                    "Male_raw": 8,
+                    "Male_pct": 27.586206896551722,
+                    "Total_raw": 10,
+                    "Total_pct": 29.41176470588235
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 45.833333333333336,
-                    "Total": 46.15384615384615
+                    "Female_raw": 1,
+                    "Female_pct": 50,
+                    "Male_raw": 11,
+                    "Male_pct": 45.833333333333336,
+                    "Total_raw": 12,
+                    "Total_pct": 46.15384615384615
                   }
                 },
                 "Skill 20": {
                   "base": {
-                    "Female": 20,
-                    "Male": 17.24137931034483,
-                    "Total": 17.647058823529413
+                    "Female_raw": 1,
+                    "Female_pct": 20,
+                    "Male_raw": 5,
+                    "Male_pct": 17.24137931034483,
+                    "Total_raw": 6,
+                    "Total_pct": 17.647058823529413
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 16.666666666666668,
-                    "Total": 15.384615384615385
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 16.666666666666668,
+                    "Total_raw": 4,
+                    "Total_pct": 15.384615384615385
                   }
                 },
                 "Skill 21": {
                   "base": {
-                    "Female": 0,
-                    "Male": 13.793103448275861,
-                    "Total": 11.764705882352942
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 13.793103448275861,
+                    "Total_raw": 4,
+                    "Total_pct": 11.764705882352942
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 25,
-                    "Total": 23.076923076923077
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 25,
+                    "Total_raw": 6,
+                    "Total_pct": 23.076923076923077
                   }
                 },
                 "Male": {
@@ -1462,254 +2092,380 @@
                 },
                 "Skill 1": {
                   "base": {
-                    "Female": 27.272727272727273,
-                    "Male": 38.46153846153846,
-                    "Total": 33.333333333333336
+                    "Female_raw": 3,
+                    "Female_pct": 27.272727272727273,
+                    "Male_raw": 5,
+                    "Male_pct": 38.46153846153846,
+                    "Total_raw": 8,
+                    "Total_pct": 33.333333333333336
                   },
                   "end": {
-                    "Female": 36.36363636363637,
-                    "Male": 69.23076923076923,
-                    "Total": 54.166666666666664
+                    "Female_raw": 4,
+                    "Female_pct": 36.36363636363637,
+                    "Male_raw": 9,
+                    "Male_pct": 69.23076923076923,
+                    "Total_raw": 13,
+                    "Total_pct": 54.166666666666664
                   }
                 },
                 "Skill 2": {
                   "base": {
-                    "Female": 0,
-                    "Male": 38.46153846153846,
-                    "Total": 20.833333333333332
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 5,
+                    "Male_pct": 38.46153846153846,
+                    "Total_raw": 5,
+                    "Total_pct": 20.833333333333332
                   },
                   "end": {
-                    "Female": 36.36363636363637,
-                    "Male": 53.84615384615385,
-                    "Total": 45.833333333333336
+                    "Female_raw": 4,
+                    "Female_pct": 36.36363636363637,
+                    "Male_raw": 7,
+                    "Male_pct": 53.84615384615385,
+                    "Total_raw": 11,
+                    "Total_pct": 45.833333333333336
                   }
                 },
                 "Skill 3": {
                   "base": {
-                    "Female": 0,
-                    "Male": 15.384615384615385,
-                    "Total": 8.333333333333334
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 2,
+                    "Male_pct": 15.384615384615385,
+                    "Total_raw": 2,
+                    "Total_pct": 8.333333333333334
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 15.384615384615385,
-                    "Total": 8.333333333333334
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 2,
+                    "Male_pct": 15.384615384615385,
+                    "Total_raw": 2,
+                    "Total_pct": 8.333333333333334
                   }
                 },
                 "Skill 4": {
                   "base": {
-                    "Female": 0,
-                    "Male": 23.076923076923077,
-                    "Total": 12.5
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   },
                   "end": {
-                    "Female": 9.090909090909092,
-                    "Male": 15.384615384615385,
-                    "Total": 12.5
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 2,
+                    "Male_pct": 15.384615384615385,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   }
                 },
                 "Skill 5": {
                   "base": {
-                    "Female": 0,
-                    "Male": 15.384615384615385,
-                    "Total": 8.333333333333334
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 2,
+                    "Male_pct": 15.384615384615385,
+                    "Total_raw": 2,
+                    "Total_pct": 8.333333333333334
                   },
                   "end": {
-                    "Female": 9.090909090909092,
-                    "Male": 23.076923076923077,
-                    "Total": 16.666666666666668
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 4,
+                    "Total_pct": 16.666666666666668
                   }
                 },
                 "Skill 6": {
                   "base": {
-                    "Female": 9.090909090909092,
-                    "Male": 23.076923076923077,
-                    "Total": 16.666666666666668
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 4,
+                    "Total_pct": 16.666666666666668
                   },
                   "end": {
-                    "Female": 18.181818181818183,
-                    "Male": 53.84615384615385,
-                    "Total": 37.5
+                    "Female_raw": 2,
+                    "Female_pct": 18.181818181818183,
+                    "Male_raw": 7,
+                    "Male_pct": 53.84615384615385,
+                    "Total_raw": 9,
+                    "Total_pct": 37.5
                   }
                 },
                 "Skill 7": {
                   "base": {
-                    "Female": 0,
-                    "Male": 23.076923076923077,
-                    "Total": 12.5
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 38.46153846153846,
-                    "Total": 20.833333333333332
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 5,
+                    "Male_pct": 38.46153846153846,
+                    "Total_raw": 5,
+                    "Total_pct": 20.833333333333332
                   }
                 },
                 "Skill 8": {
                   "base": {
-                    "Female": 9.090909090909092,
-                    "Male": 30.76923076923077,
-                    "Total": 20.833333333333332
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 4,
+                    "Male_pct": 30.76923076923077,
+                    "Total_raw": 5,
+                    "Total_pct": 20.833333333333332
                   },
                   "end": {
-                    "Female": 9.090909090909092,
-                    "Male": 61.53846153846154,
-                    "Total": 37.5
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 8,
+                    "Male_pct": 61.53846153846154,
+                    "Total_raw": 9,
+                    "Total_pct": 37.5
                   }
                 },
                 "Skill 9": {
                   "base": {
-                    "Female": 0,
-                    "Male": 23.076923076923077,
-                    "Total": 12.5
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   },
                   "end": {
-                    "Female": 18.181818181818183,
-                    "Male": 53.84615384615385,
-                    "Total": 37.5
+                    "Female_raw": 2,
+                    "Female_pct": 18.181818181818183,
+                    "Male_raw": 7,
+                    "Male_pct": 53.84615384615385,
+                    "Total_raw": 9,
+                    "Total_pct": 37.5
                   }
                 },
                 "Skill 10": {
                   "base": {
-                    "Female": 0,
-                    "Male": 23.076923076923077,
-                    "Total": 12.5
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 30.76923076923077,
-                    "Total": 16.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 30.76923076923077,
+                    "Total_raw": 4,
+                    "Total_pct": 16.666666666666668
                   }
                 },
                 "Skill 11": {
                   "base": {
-                    "Female": 0,
-                    "Male": 23.076923076923077,
-                    "Total": 12.5
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 30.76923076923077,
-                    "Total": 16.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 30.76923076923077,
+                    "Total_raw": 4,
+                    "Total_pct": 16.666666666666668
                   }
                 },
                 "Skill 12": {
                   "base": {
-                    "Female": 0,
-                    "Male": 30.76923076923077,
-                    "Total": 16.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 30.76923076923077,
+                    "Total_raw": 4,
+                    "Total_pct": 16.666666666666668
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 46.15384615384615,
-                    "Total": 25
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 46.15384615384615,
+                    "Total_raw": 6,
+                    "Total_pct": 25
                   }
                 },
                 "Skill 13": {
                   "base": {
-                    "Female": 9.090909090909092,
-                    "Male": 15.384615384615385,
-                    "Total": 12.5
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 2,
+                    "Male_pct": 15.384615384615385,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 23.076923076923077,
-                    "Total": 12.5
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   }
                 },
                 "Skill 14": {
                   "base": {
-                    "Female": 9.090909090909092,
-                    "Male": 23.076923076923077,
-                    "Total": 16.666666666666668
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 4,
+                    "Total_pct": 16.666666666666668
                   },
                   "end": {
-                    "Female": 18.181818181818183,
-                    "Male": 53.84615384615385,
-                    "Total": 37.5
+                    "Female_raw": 2,
+                    "Female_pct": 18.181818181818183,
+                    "Male_raw": 7,
+                    "Male_pct": 53.84615384615385,
+                    "Total_raw": 9,
+                    "Total_pct": 37.5
                   }
                 },
                 "Skill 15": {
                   "base": {
-                    "Female": 0,
-                    "Male": 23.076923076923077,
-                    "Total": 12.5
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   },
                   "end": {
-                    "Female": 9.090909090909092,
-                    "Male": 30.76923076923077,
-                    "Total": 20.833333333333332
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 4,
+                    "Male_pct": 30.76923076923077,
+                    "Total_raw": 5,
+                    "Total_pct": 20.833333333333332
                   }
                 },
                 "Skill 16": {
                   "base": {
-                    "Female": 27.272727272727273,
-                    "Male": 30.76923076923077,
-                    "Total": 29.166666666666668
+                    "Female_raw": 3,
+                    "Female_pct": 27.272727272727273,
+                    "Male_raw": 4,
+                    "Male_pct": 30.76923076923077,
+                    "Total_raw": 7,
+                    "Total_pct": 29.166666666666668
                   },
                   "end": {
-                    "Female": 36.36363636363637,
-                    "Male": 53.84615384615385,
-                    "Total": 45.833333333333336
+                    "Female_raw": 4,
+                    "Female_pct": 36.36363636363637,
+                    "Male_raw": 7,
+                    "Male_pct": 53.84615384615385,
+                    "Total_raw": 11,
+                    "Total_pct": 45.833333333333336
                   }
                 },
                 "Skill 17": {
                   "base": {
-                    "Female": 18.181818181818183,
-                    "Male": 23.076923076923077,
-                    "Total": 20.833333333333332
+                    "Female_raw": 2,
+                    "Female_pct": 18.181818181818183,
+                    "Male_raw": 3,
+                    "Male_pct": 23.076923076923077,
+                    "Total_raw": 5,
+                    "Total_pct": 20.833333333333332
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 46.15384615384615,
-                    "Total": 25
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 46.15384615384615,
+                    "Total_raw": 6,
+                    "Total_pct": 25
                   }
                 },
                 "Skill 18": {
                   "base": {
-                    "Female": 45.45454545454545,
-                    "Male": 53.84615384615385,
-                    "Total": 50
+                    "Female_raw": 5,
+                    "Female_pct": 45.45454545454545,
+                    "Male_raw": 7,
+                    "Male_pct": 53.84615384615385,
+                    "Total_raw": 12,
+                    "Total_pct": 50
                   },
                   "end": {
-                    "Female": 36.36363636363637,
-                    "Male": 69.23076923076923,
-                    "Total": 54.166666666666664
+                    "Female_raw": 4,
+                    "Female_pct": 36.36363636363637,
+                    "Male_raw": 9,
+                    "Male_pct": 69.23076923076923,
+                    "Total_raw": 13,
+                    "Total_pct": 54.166666666666664
                   }
                 },
                 "Skill 19": {
                   "base": {
-                    "Female": 27.272727272727273,
-                    "Male": 30.76923076923077,
-                    "Total": 29.166666666666668
+                    "Female_raw": 3,
+                    "Female_pct": 27.272727272727273,
+                    "Male_raw": 4,
+                    "Male_pct": 30.76923076923077,
+                    "Total_raw": 7,
+                    "Total_pct": 29.166666666666668
                   },
                   "end": {
-                    "Female": 9.090909090909092,
-                    "Male": 61.53846153846154,
-                    "Total": 37.5
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 8,
+                    "Male_pct": 61.53846153846154,
+                    "Total_raw": 9,
+                    "Total_pct": 37.5
                   }
                 },
                 "Skill 20": {
                   "base": {
-                    "Female": 18.181818181818183,
-                    "Male": 15.384615384615385,
-                    "Total": 16.666666666666668
+                    "Female_raw": 2,
+                    "Female_pct": 18.181818181818183,
+                    "Male_raw": 2,
+                    "Male_pct": 15.384615384615385,
+                    "Total_raw": 4,
+                    "Total_pct": 16.666666666666668
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 30.76923076923077,
-                    "Total": 16.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 30.76923076923077,
+                    "Total_raw": 4,
+                    "Total_pct": 16.666666666666668
                   }
                 },
                 "Skill 21": {
                   "base": {
-                    "Female": 9.090909090909092,
-                    "Male": 15.384615384615385,
-                    "Total": 12.5
+                    "Female_raw": 1,
+                    "Female_pct": 9.090909090909092,
+                    "Male_raw": 2,
+                    "Male_pct": 15.384615384615385,
+                    "Total_raw": 3,
+                    "Total_pct": 12.5
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 30.76923076923077,
-                    "Total": 16.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 4,
+                    "Male_pct": 30.76923076923077,
+                    "Total_raw": 4,
+                    "Total_pct": 16.666666666666668
                   }
                 },
                 "Male": {
@@ -1738,254 +2494,380 @@
                 },
                 "Skill 1": {
                   "base": {
-                    "Female": 14.285714285714286,
-                    "Male": 42.857142857142854,
-                    "Total": 33.333333333333336
+                    "Female_raw": 1,
+                    "Female_pct": 14.285714285714286,
+                    "Male_raw": 6,
+                    "Male_pct": 42.857142857142854,
+                    "Total_raw": 7,
+                    "Total_pct": 33.333333333333336
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 54.54545454545455,
-                    "Total": 53.333333333333336
+                    "Female_raw": 2,
+                    "Female_pct": 50,
+                    "Male_raw": 6,
+                    "Male_pct": 54.54545454545455,
+                    "Total_raw": 8,
+                    "Total_pct": 53.333333333333336
                   }
                 },
                 "Skill 2": {
                   "base": {
-                    "Female": 0,
-                    "Male": 42.857142857142854,
-                    "Total": 28.571428571428573
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 6,
+                    "Male_pct": 42.857142857142854,
+                    "Total_raw": 6,
+                    "Total_pct": 28.571428571428573
                   },
                   "end": {
-                    "Female": 25,
-                    "Male": 27.272727272727273,
-                    "Total": 26.666666666666668
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 3,
+                    "Male_pct": 27.272727272727273,
+                    "Total_raw": 4,
+                    "Total_pct": 26.666666666666668
                   }
                 },
                 "Skill 3": {
                   "base": {
-                    "Female": 14.285714285714286,
-                    "Male": 7.142857142857143,
-                    "Total": 9.523809523809524
+                    "Female_raw": 1,
+                    "Female_pct": 14.285714285714286,
+                    "Male_raw": 1,
+                    "Male_pct": 7.142857142857143,
+                    "Total_raw": 2,
+                    "Total_pct": 9.523809523809524
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   }
                 },
                 "Skill 4": {
                   "base": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 9.090909090909092,
-                    "Total": 6.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 1,
+                    "Male_pct": 9.090909090909092,
+                    "Total_raw": 1,
+                    "Total_pct": 6.666666666666668
                   }
                 },
                 "Skill 5": {
                   "base": {
-                    "Female": 0,
-                    "Male": 7.142857142857143,
-                    "Total": 4.761904761904762
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 1,
+                    "Male_pct": 7.142857142857143,
+                    "Total_raw": 1,
+                    "Total_pct": 4.761904761904762
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 9.090909090909092,
-                    "Total": 6.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 1,
+                    "Male_pct": 9.090909090909092,
+                    "Total_raw": 1,
+                    "Total_pct": 6.666666666666668
                   }
                 },
                 "Skill 6": {
                   "base": {
-                    "Female": 14.285714285714286,
-                    "Male": 35.714285714285715,
-                    "Total": 28.571428571428573
+                    "Female_raw": 1,
+                    "Female_pct": 14.285714285714286,
+                    "Male_raw": 5,
+                    "Male_pct": 35.714285714285715,
+                    "Total_raw": 6,
+                    "Total_pct": 28.571428571428573
                   },
                   "end": {
-                    "Female": 25,
-                    "Male": 45.45454545454545,
-                    "Total": 40
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 5,
+                    "Male_pct": 45.45454545454545,
+                    "Total_raw": 6,
+                    "Total_pct": 40
                   }
                 },
                 "Skill 7": {
                   "base": {
-                    "Female": 14.285714285714286,
-                    "Male": 7.142857142857143,
-                    "Total": 9.523809523809524
+                    "Female_raw": 1,
+                    "Female_pct": 14.285714285714286,
+                    "Male_raw": 1,
+                    "Male_pct": 7.142857142857143,
+                    "Total_raw": 2,
+                    "Total_pct": 9.523809523809524
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   }
                 },
                 "Skill 8": {
                   "base": {
-                    "Female": 14.285714285714286,
-                    "Male": 28.571428571428573,
-                    "Total": 23.80952380952381
+                    "Female_raw": 1,
+                    "Female_pct": 14.285714285714286,
+                    "Male_raw": 4,
+                    "Male_pct": 28.571428571428573,
+                    "Total_raw": 5,
+                    "Total_pct": 23.80952380952381
                   },
                   "end": {
-                    "Female": 25,
-                    "Male": 36.36363636363637,
-                    "Total": 33.333333333333336
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 4,
+                    "Male_pct": 36.36363636363637,
+                    "Total_raw": 5,
+                    "Total_pct": 33.333333333333336
                   }
                 },
                 "Skill 9": {
                   "base": {
-                    "Female": 0,
-                    "Male": 14.285714285714286,
-                    "Total": 9.523809523809524
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 2,
+                    "Male_pct": 14.285714285714286,
+                    "Total_raw": 2,
+                    "Total_pct": 9.523809523809524
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 9.090909090909092,
-                    "Total": 6.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 1,
+                    "Male_pct": 9.090909090909092,
+                    "Total_raw": 1,
+                    "Total_pct": 6.666666666666668
                   }
                 },
                 "Skill 10": {
                   "base": {
-                    "Female": 0,
-                    "Male": 14.285714285714286,
-                    "Total": 9.523809523809524
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 2,
+                    "Male_pct": 14.285714285714286,
+                    "Total_raw": 2,
+                    "Total_pct": 9.523809523809524
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   }
                 },
                 "Skill 11": {
                   "base": {
-                    "Female": 0,
-                    "Male": 21.428571428571427,
-                    "Total": 14.285714285714286
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 21.428571428571427,
+                    "Total_raw": 3,
+                    "Total_pct": 14.285714285714286
                   },
                   "end": {
-                    "Female": 25,
-                    "Male": 0,
-                    "Total": 6.666666666666667
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 1,
+                    "Total_pct": 6.666666666666667
                   }
                 },
                 "Skill 12": {
                   "base": {
-                    "Female": 0,
-                    "Male": 21.428571428571427,
-                    "Total": 14.285714285714286
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 21.428571428571427,
+                    "Total_raw": 3,
+                    "Total_pct": 14.285714285714286
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 9.090909090909092,
-                    "Total": 6.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 1,
+                    "Male_pct": 9.090909090909092,
+                    "Total_raw": 1,
+                    "Total_pct": 6.666666666666668
                   }
                 },
                 "Skill 13": {
                   "base": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   },
                   "end": {
-                    "Female": 25,
-                    "Male": 0,
-                    "Total": 6.666666666666667
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 1,
+                    "Total_pct": 6.666666666666667
                   }
                 },
                 "Skill 14": {
                   "base": {
-                    "Female": 14.285714285714286,
-                    "Male": 21.428571428571427,
-                    "Total": 19.047619047619047
+                    "Female_raw": 1,
+                    "Female_pct": 14.285714285714286,
+                    "Male_raw": 3,
+                    "Male_pct": 21.428571428571427,
+                    "Total_raw": 4,
+                    "Total_pct": 19.047619047619047
                   },
                   "end": {
-                    "Female": 25,
-                    "Male": 45.45454545454545,
-                    "Total": 40
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 5,
+                    "Male_pct": 45.45454545454545,
+                    "Total_raw": 6,
+                    "Total_pct": 40
                   }
                 },
                 "Skill 15": {
                   "base": {
-                    "Female": 14.285714285714286,
-                    "Male": 14.285714285714286,
-                    "Total": 14.285714285714286
+                    "Female_raw": 1,
+                    "Female_pct": 14.285714285714286,
+                    "Male_raw": 2,
+                    "Male_pct": 14.285714285714286,
+                    "Total_raw": 3,
+                    "Total_pct": 14.285714285714286
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 9.090909090909092,
-                    "Total": 6.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 1,
+                    "Male_pct": 9.090909090909092,
+                    "Total_raw": 1,
+                    "Total_pct": 6.666666666666668
                   }
                 },
                 "Skill 16": {
                   "base": {
-                    "Female": 28.571428571428573,
-                    "Male": 64.28571428571429,
-                    "Total": 52.38095238095238
+                    "Female_raw": 2,
+                    "Female_pct": 28.571428571428573,
+                    "Male_raw": 9,
+                    "Male_pct": 64.28571428571429,
+                    "Total_raw": 11,
+                    "Total_pct": 52.38095238095238
                   },
                   "end": {
-                    "Female": 25,
-                    "Male": 36.36363636363637,
-                    "Total": 33.333333333333336
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 4,
+                    "Male_pct": 36.36363636363637,
+                    "Total_raw": 5,
+                    "Total_pct": 33.333333333333336
                   }
                 },
                 "Skill 17": {
                   "base": {
-                    "Female": 0,
-                    "Male": 21.428571428571427,
-                    "Total": 14.285714285714286
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 3,
+                    "Male_pct": 21.428571428571427,
+                    "Total_raw": 3,
+                    "Total_pct": 14.285714285714286
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 9.090909090909092,
-                    "Total": 6.666666666666668
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 1,
+                    "Male_pct": 9.090909090909092,
+                    "Total_raw": 1,
+                    "Total_pct": 6.666666666666668
                   }
                 },
                 "Skill 18": {
                   "base": {
-                    "Female": 42.857142857142854,
-                    "Male": 64.28571428571429,
-                    "Total": 57.142857142857146
+                    "Female_raw": 3,
+                    "Female_pct": 42.857142857142854,
+                    "Male_raw": 9,
+                    "Male_pct": 64.28571428571429,
+                    "Total_raw": 12,
+                    "Total_pct": 57.142857142857146
                   },
                   "end": {
-                    "Female": 50,
-                    "Male": 54.54545454545455,
-                    "Total": 53.333333333333336
+                    "Female_raw": 2,
+                    "Female_pct": 50,
+                    "Male_raw": 6,
+                    "Male_pct": 54.54545454545455,
+                    "Total_raw": 8,
+                    "Total_pct": 53.333333333333336
                   }
                 },
                 "Skill 19": {
                   "base": {
-                    "Female": 28.571428571428573,
-                    "Male": 42.857142857142854,
-                    "Total": 38.095238095238095
+                    "Female_raw": 2,
+                    "Female_pct": 28.571428571428573,
+                    "Male_raw": 6,
+                    "Male_pct": 42.857142857142854,
+                    "Total_raw": 8,
+                    "Total_pct": 38.095238095238095
                   },
                   "end": {
-                    "Female": 25,
-                    "Male": 45.45454545454545,
-                    "Total": 40
+                    "Female_raw": 1,
+                    "Female_pct": 25,
+                    "Male_raw": 5,
+                    "Male_pct": 45.45454545454545,
+                    "Total_raw": 6,
+                    "Total_pct": 40
                   }
                 },
                 "Skill 20": {
                   "base": {
-                    "Female": 0,
-                    "Male": 7.142857142857143,
-                    "Total": 4.761904761904762
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 1,
+                    "Male_pct": 7.142857142857143,
+                    "Total_raw": 1,
+                    "Total_pct": 4.761904761904762
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   }
                 },
                 "Skill 21": {
                   "base": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   },
                   "end": {
-                    "Female": 0,
-                    "Male": 0,
-                    "Total": 0
+                    "Female_raw": 0,
+                    "Female_pct": 0,
+                    "Male_raw": 0,
+                    "Male_pct": 0,
+                    "Total_raw": 0,
+                    "Total_pct": 0
                   }
                 },
                 "Male": {

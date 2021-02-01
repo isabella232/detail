@@ -46,8 +46,10 @@ function iterateAndCountLessons(elem, data, props, propsIndex) {
     //ICT Details
     for (var i = 1; i <= 21; i++) {
       elem.values["Skill "+i] = elem.values["Skill "+i]  || { base : {}, end: {} };
-      elem.values["Skill "+i].base[data['Gender']] = parseInt(data['B_ICT_' + i]) * 100 / elem.values[data['Gender']].base_count
-      elem.values["Skill "+i].end[data['Gender']] = parseInt(data['E_ICT_' + i]) * 100 / elem.values[data['Gender']].end_count
+      elem.values["Skill "+i].base[data['Gender']+"_raw"] = parseInt(data['B_ICT_' + i]);
+      elem.values["Skill "+i].base[data['Gender']+"_pct"] = parseInt(data['B_ICT_' + i]) * 100 / elem.values[data['Gender']].base_count
+      elem.values["Skill "+i].end[data['Gender']+"_raw"] = parseInt(data['E_ICT_' + i])
+      elem.values["Skill "+i].end[data['Gender']+"_pct"] = parseInt(data['E_ICT_' + i]) * 100 / elem.values[data['Gender']].end_count
     }
       return;
     process.exit();
@@ -91,14 +93,16 @@ function postprocess(data) {
     Object.keys(data.children).forEach(child => postprocess(data.children[child]));
   } else {
     for (var i = 1; i <= 21; i++) {
-      data.values["Skill "+i].base.Total =
-        (data.values["Skill "+i].base.Female * data.values.Female.base_count
-      + data.values["Skill "+i].base.Male * data.values.Male.base_count)
+      data.values["Skill "+i].base.Total_raw = data.values["Skill "+i].base.Female_raw + data.values["Skill "+i].base.Male_raw;
+      data.values["Skill "+i].base.Total_pct =
+        (data.values["Skill "+i].base.Female_pct * data.values.Female.base_count
+      + data.values["Skill "+i].base.Male_pct * data.values.Male.base_count)
       / (data.values.Female.base_count + data.values.Male.base_count);
 
-      data.values["Skill "+i].end.Total =
-        (data.values["Skill "+i].end.Female * data.values.Female.end_count
-          + data.values["Skill "+i].end.Male * data.values.Male.end_count)
+      data.values["Skill "+i].end.Total_raw = data.values["Skill "+i].end.Female_raw + data.values["Skill "+i].end.Male_raw;
+      data.values["Skill "+i].end.Total_pct =
+        (data.values["Skill "+i].end.Female_pct * data.values.Female.end_count
+          + data.values["Skill "+i].end.Male_pct * data.values.Male.end_count)
         / (data.values.Female.end_count + data.values.Male.end_count);
     }
   }
